@@ -1,0 +1,131 @@
+
+
+article.blog-posts {
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 20px;
+
+      a {
+        text-decoration: none;
+        color: #ccc;
+        font-size: 12px;
+
+        span {
+          margin-top: 10px;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.widget-title {
+  border-bottom: solid 1px $turq-color;
+  font-family: $bodyfont;
+  font-size: 24px;
+  font-weight: bold;
+  color: $turq-color;
+  text-transform: uppercase;
+  // display: inline;
+}
+
+.bodyDesign {
+  font-family: $bodyfont;
+	font-size: 17px;
+	line-height: 1.76;
+	color: $body-color;
+}
+
+.bodyDesign p {
+    margin-bottom: 50px;
+}
+
+#aboutTitle {
+  font-family: $primaryfont;
+  font-size: 40px;
+  font-weight: bold;
+  // text-align: center;
+  color: $body-color;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+.aboutUsImg1 {
+  // width: 100%;
+  border-radius: 2%;
+  display: inline;
+  margin-left: 25px;
+}
+
+#btmImages {
+    margin-bottom: 50px;
+}
+
+.aboutUsBlog {
+    border-radius: 4%;
+    width:176px;
+}
+
+
+#realtedOptions{
+  font-family: $bodyfont;
+  font-size: 15px;
+  line-height: 2.73;
+  text-transform: uppercase;
+}
+
+#realtedOptions li a {
+    text-decoration: none;
+    color: $color-four;
+}
+
+.blog-snippet span{
+  font-family: $bodyfont;
+  font-size: 15px;
+  line-height: 1.6;
+  color: $color-four;
+  width: 176px;
+}
+
+.widget p {
+  font-family: $bodyfont;
+  font-size: 15px;
+  line-height: 1.6;
+  color: $color-four;
+  width:176px;
+}
+
+#email {
+  width: 176px;
+  font-family: $bodyfont;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+  // color: $turq-color!important;
+  background: $heading-color;
+  border: none;
+  border-radius: 10px;
+}
+
+#signUpBtn {
+  background: $action-color;
+  color: $heading-color;
+  font-family: $bodyfont;
+  border: none;
+  // text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 4px 0 15px 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  width:176px;
+  height: 30px;
+}
+//
+// #articleSidebar {
+//   padding-left: 10px;
+// }

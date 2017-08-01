@@ -1,0 +1,7 @@
+/* Table of Contents for Tips */
+
+Tip 1 = Culture
+Tip 2 = Whats On
+Tip 3 = Blog
+Tip 4 = Events
+Tip 5 = Tips

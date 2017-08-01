@@ -1,0 +1,91 @@
+// Bourbon
+// @import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
+/* Header Styles */
+@import '../../components/header/header';
+@import '../../components/booking-widget/booking';
+
+// RESET
+@import '../../assets/reset';
+// Type
+@import "../../assets/typography";
+@import "../../assets/_colour-palette";
+
+/* nav styles */
+@import '../../components/nav/nav';
+
+/* hero */
+@import "../../components/hero/hero";
+
+/* locations */
+@import "../../components/locations/locations";
+
+/* reasons */
+@import "../../components/reasons/reasons";
+
+/* tales */
+@import "../../components/tales/pig-tales";
+
+/* footer */
+@import "../../components/footer/footer";
+
+
+// Venue
+/* about */
+@import "../../components/venue/piggy-tips/tips";
+
+/* discover */
+@import "../../components/venue/discover/discover";
+
+/* gallery */
+@import "../../components/venue/gallery/gallery";
+
+/* gallery */
+@import "../../components/venue/ratings/ratings";
+
+/* offsets */
+@import "../../assets/offset";
+
+// Blog
+@import "../../components/blog/heroBlog/heroBlog";
+
+@import "../../components/blog/featuredPosts/featured";
+
+@import "../../components/blog/latestPosts/latestPosts";
+
+//faq
+@import "../../components/faq/heroFaq/heroFaq";
+
+@import "../../components/faq/iconHeader/iconHeader";
+
+@import "../../components/faq/questions/questions";
+
+//Contact Us
+@import "../../components/contact/herocontact/herocontact";
+
+@import "../../components/contact/contact/contact";
+
+@import "../../components/contact/contactBeach/contactBeach";
+
+// About us
+
+@import "../../components/aboutUs/aboutUs/aboutUs";
+
+@import "../../components/aboutUs/heroAbout/heroAbout";
+
+
+
+// Piggy Tales
+// @import "../../components/tales/tales-tabs";
+
+
+
+#boldTitle {
+  text-transform: uppercase;
+  font-family: $primaryfont;
+	font-weight: bold;
+  margin-top: -30px;
+  font-size: 60px;
+  @include bp(baby-bear){
+    font-size: 10px;
+  };
+}

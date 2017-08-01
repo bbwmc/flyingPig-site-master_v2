@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="19px" height="11px" viewBox="0 0 19 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VENUE-PAGE" transform="translate(-319.000000, -1217.000000)" fill="#3DCCB1">
+            <g id="OVERVIEW" transform="translate(-5.000000, 672.000000)">
+                <g id="arrow-point-to-right-copy" transform="translate(333.500000, 576.500000) rotate(-270.000000) translate(-333.500000, -576.500000) translate(302.000000, 567.000000)">
+                    <path d="M10.5488839,10.2555469 L2.29491964,18.2805469 C1.76874107,18.7908594 0.917276786,18.7908594 0.392705357,18.2805469 C-0.130901786,17.7702344 -0.130901786,16.9424219 0.392705357,16.4324219 L7.69620536,9.33148437 L0.393991071,2.23179688 C-0.130901786,1.72148437 -0.130901786,0.893984375 0.393991071,0.383671875 C0.9185625,-0.127890625 1.77002679,-0.127890625 2.29491964,0.383671875 L10.5488839,8.40867187 C10.8114911,8.66367187 10.9419911,8.99710937 10.9419911,9.33148437 C10.9419911,9.66585937 10.8114911,10.0017969 10.5488839,10.2555469 Z" id="Fill-1-Copy"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

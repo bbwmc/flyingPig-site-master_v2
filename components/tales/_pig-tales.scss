@@ -1,0 +1,142 @@
+#talesWrapper {
+  color: $body-color;
+  // padding:50px 0 30px 0;
+    background: $turq-color;
+    padding-top: 20px;
+}
+
+// #tales {
+//   // background: $turq-color;
+//   color: $body-color;
+//   padding:50px 0 30px 0;
+// }
+//
+// #talesBackground {
+//
+//   padding:50px 0 30px 0;
+// }
+
+#talesTitle {
+  font-family: $primaryfont;
+	font-size: 28px;
+	font-weight: bold;
+  margin: 0 0 0 0;
+  // color: $body-color;
+}
+
+#reviewTxt {
+  padding: 0 10px 0 10px;
+}
+
+#taleProfile {
+  border-radius: 100px;
+}
+
+#taleBtn {
+  background: $action-color;
+  color: $white-background;
+  font-family:$bodyfont;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 10px 30px 10px 30px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+#outerDiv {
+  position: relative;
+  // width:200px;
+  // height:200px;
+  background:#fff;
+  // margin: 30px;
+  height:400px;
+  border-radius: 10px;
+}
+
+#innerDiv {
+  position: absolute;
+  width:90px;
+  height:90px;
+  background: $white-background;
+  left:-20px;
+  top: -20px;
+  border-radius: 100px;
+  border: solid 15px $turq-color;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#infoDivRight1 {
+  color: $color-four;
+  font-family: $bodyfont;
+	font-weight: 500;
+	line-height: 1.4;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.detailsSection {
+  margin: 0px 0 0px 0;
+  padding-top: 12px;
+  font-family:$bodyfont;
+}
+
+#reviewTales {
+  // background: pink;
+  // padding-top: 100px;
+  margin: 0 30px 0 30px;
+}
+
+#borderTales {
+  padding: 15px 0 15px 0;
+  border-bottom-style: dotted;
+  border-top-style: dotted;
+  border-width: 2px;
+  border-color:  $action-color;
+  text-align: left;
+  font-family: $primaryfont;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.59;
+}
+
+.fontCapital{
+text-transform: uppercase;
+}
+
+#thirdFont {
+  font-family: $talesfont;
+  font-size: 24px;
+  color: $turq-color;
+  font-weight: normal;
+  display: inline;
+  // display: none;
+}
+
+#socialTaleImages{
+  display: inline;
+  // padding-top: 50px;
+  // padding-top: 5px;
+}
+
+.taleImg {
+  margin-left: 10px;
+}
+
+#talesBtn {
+  background: $action-color;
+  color: $heading-color;
+  font-family: $bodyfont;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 10px 40px 10px 40px;
+  margin: 30px 0 50px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+}

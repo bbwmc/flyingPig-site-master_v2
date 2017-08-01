@@ -1,0 +1,144 @@
+#navArrow {
+  height:30px;
+  width:30px;
+  border-radius: 5px;
+  // background: $action-color;
+}
+
+#navBar {
+  // height:775px;
+  width: 336px;
+  // background: $action-color;
+  padding-top: 20px;
+}
+
+#navBar ul {
+  color: $heading-color;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-width: 1px;
+  margin: 100px 50px 0 50px;
+  padding-bottom: 20px;
+}
+
+// delete when all a tags added
+#navBar li{
+  font-family: $bodyfont;
+  font-size: 24px;
+	// font-weight: bold;
+	// line-height: 1.92;
+  text-transform: uppercase;
+
+  &:hover {
+    a:before {
+      color: #00f;
+    }
+  }
+}
+
+#navBar a {
+  text-decoration: none;
+  color: #fff;
+  font-family: $bodyfont;
+  font-size: 24px;
+	// font-weight: bold;
+	// line-height: 1.92;
+  text-transform: uppercase;
+
+  // &:hover {
+  //   color: #000;
+  // }
+  &:before {
+    content: url('../../assets/images/cross_white copy.svg');
+    padding-right: 5px;
+    top: 2px;
+    position: relative;
+  }
+  // &:hover::before {
+  //   transform:scale(2);
+  //   transition: all 3s linear;
+  //   color: #f00;
+  // }
+}
+
+// #navBar li :hover{
+//   color: $body-color;
+// }
+// #navBar li :active{
+//   color: $body-color;
+// }
+
+.homepageOption {
+  border-bottom-style: dotted;
+  border-top-style: dotted;
+  border-width: 2px;
+}
+
+#fontNavHeader {
+    font-size: 12px;
+  	font-weight: 100;
+  	line-height: 2.25;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: $bodyfont;
+    color: $heading-color;
+}
+
+#navFooter {
+  margin-top: 100px
+}
+
+
+#outerDivNavigation {
+  position: fixed;
+  background-image: url(../../../assets/images/menu-background.svg);
+  // margin: 30px;
+  height: 70px;
+  width: 336px;
+  border-radius: 2px;
+  right: -330px;
+  z-index: 1;
+  top: 0;
+  transition: right .2s linear;
+}
+
+#outerDivNavigation.active {
+  position: fixed;
+  // background:$action-color;
+  background-image: url(../../../assets/images/menu-background.svg);
+  // margin: 30px;
+  height:100%;
+  width: 326px;
+  border-radius: 2px;
+  right: 0px;
+  z-index: 3;
+  top: 0;
+
+  #arrowNavIcon {
+    transform: rotate(180deg);
+  } // nav icon
+
+}
+
+#innerDivNavigation {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: $action-color;
+  left:-28px;
+  top: 20px;
+  border-radius: 5px;
+}
+#arrowNavIcon{
+  margin: 7px 4px 0 7px;
+}
+
+#infoDivRight {
+  float: right;
+  text-align: center;
+  padding: 0 50px 20px 0;
+}
+
+#reviews-wrapper {
+  padding-left: 0px;
+}

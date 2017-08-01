@@ -1,0 +1,146 @@
+#piggy-tips {
+  background:$action-color-opaque;
+  background-image: url('../../../assets/images/windmill_back.svg');
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 35px 0 30px 0;
+}
+
+#piggy-tips-title {
+  color: $heading-color;
+  text-align: center;
+}
+#piggy-tips-content {
+  > .tab-content {
+    display: none;
+  }
+}
+
+#tipsIntroTxt {
+  color: $heading-color;
+  font-family: $bodyfont;
+  font-size: 16px;
+	line-height: 1.56;
+}
+
+
+#titleFontCulture {
+  font-family:$primaryfont;
+	font-size: 28px;
+	font-weight: bold;
+  border-bottom: dotted;
+  border-width: 2px;
+  border-color: #ff6016;
+  margin: 0 0 0 0;
+}
+
+#aboutImage {
+  margin-top: 10px
+}
+#aboutCultureText {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.56;
+}
+
+#piggyTipsOptionsParagraph {
+  background: $heading-color;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  font-family: $bodyfont;
+	font-size: 16px;
+	line-height: 1.56;
+}
+
+#readMoreBtn {
+    background-color: $action-color;
+    margin: 20px 0 30px 0;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+
+    font-family: $bodyfont;
+    font-size: 11px;
+    font-weight: bold;
+    color: $white-background;
+}
+
+.outerDiv2 {
+  position: relative;
+  background:#fff;
+  height:50px;
+  width:200px;
+  border-radius: 16px;
+  margin: 20px 0 20px 0;
+}
+
+#piggy-tips-nav ul li {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#piggy-tips-nav ul li a {
+  position: relative;
+  width: 100%;
+  display: block;
+  background: #fff;
+  height: 50px;
+  // width: 200px;
+  border-radius: 16px;
+  margin: 20px 0 20px 0;
+
+  &:hover {
+    background: #000;
+  }
+  &:active {
+    background: #f00;
+  }
+
+  img {
+    position: absolute;
+    top: -23px;
+    left: -5px;
+    max-width: 92px;
+  }
+
+  span {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    text-align: right;
+    padding-right: 20px;
+
+    @include bp(baby-bear){
+      display: none;
+    };
+  }
+}
+
+.innerDiv2 {
+  position: absolute;
+  width:90px;
+  height:90px;
+  // background: $white-background;
+  left:-20px;
+  top: -20px;
+  border-radius: 100px;
+
+}
+
+.infoDivRight2 {
+  float: right;
+  // text-align: center;
+  padding: 0 10px 0 0;
+  font-family: Roboto;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.11;
+	text-align: right;
+}
+
+#piggy-tips nav span {
+  display: block;
+  font-family: $bodyfont;
+}

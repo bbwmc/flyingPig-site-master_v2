@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="49px" viewBox="0 0 200 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VENUE-PAGE" transform="translate(-87.000000, -3254.000000)">
+            <g id="GALLERY" transform="translate(20.000000, 2643.000000)">
+                <g id="PrimaryBt" transform="translate(67.000000, 611.000000)">
+                    <rect id="Rectangle-2" fill="#FF6016" fill-rule="evenodd" x="0" y="0" width="200" height="48.6956522" rx="24"></rect>
+                    <text id="SEARCH" font-family="AvenirNext-Bold, Avenir Next" font-size="18" font-weight="bold" fill="#F5F5F5">
+                        <tspan x="58.033" y="31">VIEW ALL</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

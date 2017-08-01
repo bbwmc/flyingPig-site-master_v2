@@ -1,0 +1,15 @@
+using alignCenter wrong
+like the usage of fontCapital
+no need to use pure-u-1 and pure-u-sm-1
+margin: 0 0 0 0;
+<div id="footer-menu">
+  <ul>
+
+Comments /#
+
+// padding: 15px 0 15px 0;
+padding: 15px 0;
+
+<li><a href="/venue.php">
+  <img src="../../assets/images/cross_white copy.svg" alt="nav-cross">
+   The Hostels</a></li> (repeated) - use :before

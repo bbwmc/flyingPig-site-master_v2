@@ -1,0 +1,36 @@
+$primaryfont:'Quicksand';
+$bodyfont: 'Roboto';
+$talesfont:'Norican';
+
+.bodyfont {
+  font-family: $bodyfont;
+  color: #393d41;
+  line-height: 1.76;
+  text-align: justify;
+  font-size: 17px;
+}
+
+@mixin body-type($size) {
+  font-family: $bodyfont;
+  color: #393d41;
+  line-height: 1.76;
+  text-align: justify;
+  font-size: $size;
+}
+
+.title-font {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul li {
+  padding-top: 25px;
+  list-style-type: none;
+  font-family: $bodyfont;
+  font-size: 15px;
+  font-weight: 500;
+
+}

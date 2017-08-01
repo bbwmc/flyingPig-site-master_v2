@@ -1,0 +1,57 @@
+#locationsWrapper {
+  background: $body-color;
+  color: $heading-color;
+  padding: 40px 0 20px 0;
+}
+
+#titleFont {
+  font-family: $primaryfont;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.fontCapital{
+text-transform: uppercase;
+}
+
+ .alignCenter {
+   text-align: center
+ }
+
+ #locationTxt {
+   padding: 0 30px 20px 30px;
+   font-size: 17px;
+	 font-weight: 300;
+	 line-height: 1.6;
+	 text-align: justify;
+   font-family: $bodyfont;
+ }
+
+  #locationTxt p {
+    margin: 0 100px;
+  }
+
+// #logoPadding {
+//   padding: 20px 0 0 0;
+// }
+
+.primaryfontLocations {
+  font-family: $primaryfont;
+  font-size: 50px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  color: $heading-color;
+}
+
+.actionColourLocation {
+  color: $action-color;
+  margin: 0 0 -10px 0;
+  font-size: 22px;
+  font-family: $primaryfont;
+}
+
+.pure-g {
+  max-width: 1200px;
+  margin: auto;
+}

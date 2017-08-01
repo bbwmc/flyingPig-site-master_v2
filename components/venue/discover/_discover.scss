@@ -1,0 +1,166 @@
+#discoverHeading {
+  padding-top: 40px;
+}
+
+#discover {
+  // background: $white-background;
+  color: $body-color;
+  // padding: 20px 0 0 0;
+
+  p {
+    @extend .bodyfont;
+  }
+}
+
+// Subject Title
+#discoverTitle{
+  font-family: $primaryfont;
+  font-size: 40px;
+font-weight: bold;
+text-align: center;
+  margin: 0 0 0 0;
+}
+
+// Intro Paragraph
+// #discoverTxt {
+//   font-family: $bodyfont;
+//   color: $body-color;
+//   line-height: 1.76;
+// 	text-align: justify;
+//   // padding: 0 30px 0 30px;
+//   font-size: 17px;
+// }
+
+#discoverTxt {
+      margin: 0 0 0 0;
+}
+
+// Read more button
+#readMoreBtn {
+    background-color: $action-color;
+    margin: 20px 0 30px 0;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+
+    font-family: $bodyfont;
+    font-size: 11px;
+    font-weight: bold;
+    color: $white-background;
+}
+
+.fontCapital{
+  text-transform: uppercase;
+}
+
+#dropDownMenu li {
+  border-bottom-style: dotted;
+  border-width: 1px;
+  font-family: $bodyfont;
+  font-size: 20px;
+	line-height: 1.25;
+	text-align: justify;
+  list-style-type: none;
+}
+
+#dropDownMenu a {
+  text-decoration: none;
+}
+
+#anchorEdit{
+  list-style-type: none;
+}
+
+// #map {
+//   margin: 0 0 20px 0;
+// }
+
+// Drop down menu
+
+#dropDownMenu {
+  margin-bottom: 40px;
+}
+
+.hidden-info {
+  display: none;
+  font-size: 16px;
+  font-family: $primaryfont!important;
+  line-height: 1.6;
+  color: $body-color;
+}
+
+.btnOpts2 {
+  color: $body-color;
+  // margin: 0 30px 20px 30px;
+  padding: 15px 0 15px 0;
+  // border-radius: 30px;
+  line-height: 1.6;
+  border-bottom-style: dotted;
+  border-width: 2px;
+  position: relative;
+  // font-weight: bold;
+}
+
+.sidebarSubTitles1 {
+  font-family: $bodyfont;
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase
+}
+
+.teamEmail {
+  color: $action-color;
+}
+
+.teamEmail:hover{
+  color: $turq-color;
+}
+
+
+.questionsFaqs2 {
+  font-family: $primaryfont!important;
+  font-size: 18px;
+  // font-weight: 700;
+  text-transform: uppercase;
+  color: $turq-color;
+}
+
+.hidden-info2 {
+  display: none;
+  font-size:14px;
+  font-family: $bodyfont;
+  line-height: 1.4;
+}
+
+#contact-icons {
+  font-weight: lighter;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 1.69;
+}
+
+// toggle +/-
+.questionsFaqs2:after {
+  content:" +";
+  position: absolute;
+  right: 0;
+}
+
+.questionsFaqs2.action:after {
+  content:" -";
+  position: absolute;
+  right: 0;
+}
+
+#map {
+  height: 400px;
+}
+
+#dropDownMenu {
+  margin-left: -40px
+}
+
+#contact-icons span {
+  color: $color-four;
+}

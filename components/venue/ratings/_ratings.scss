@@ -1,0 +1,64 @@
+#ratings {
+}
+
+#ratingsBg {
+  background: $turq-color;
+  color: $body-color;
+  border-radius: 10px;
+  padding: 20px 0 20px 0;
+  margin: 20px;
+}
+
+#ratingsTitle {
+  font-family: $primaryfont;
+  color: $white-background;
+	font-size: 28px;
+	font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#percentageSize {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+  font-family: $bodyfont;
+}
+
+#averageRating{
+  line-height: 1.69;
+  margin-top: 0px;
+  font-size: 16px;
+	// font-weight: bold;
+	text-align: center;
+  font-family: $bodyfont;
+  text-transform: uppercase;
+}
+
+#ratingInfo2{
+  // padding: 15px 0 15px 0;
+  // border-top-style:dotted;
+  // border-width: 1px;
+}
+
+#textRight {
+  text-align: left;
+  color: $body-color;
+  font-family: $bodyfont;
+}
+
+#ratingInfo {
+  // background: #fff;
+  // margin: 0 30px 10px 30px;
+  padding:5px 0px 0 50px;
+}
+
+#textRight1 span {
+  font-weight: bold;
+}
+
+#textRight2 span {
+  font-weight: bold;
+}

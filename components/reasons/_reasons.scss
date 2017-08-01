@@ -1,0 +1,35 @@
+#reasons {
+  padding: 40px 0 0 0;
+}
+
+#choose {
+  margin-top: 6px;
+  background: #fff;
+  color: $action-color;
+  text-transform: uppercase;
+  font-family: $primaryfont;
+  font-size: 40px;
+	font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#rsnTxt {
+  font-size: 17px;
+  font-family: $bodyfont;
+  color: $body-color;
+	font-weight: 400;
+	line-height: 1.76;
+	text-align: justify;
+  // padding: 0 10px 0 0;
+  padding-top: 0px;
+}
+
+#rsnTxt p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#amstImg {
+  width:100%;
+  // margin-bottom: -5px;
+}

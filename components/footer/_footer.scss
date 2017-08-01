@@ -1,0 +1,81 @@
+#primary-footer {
+  color: $heading-color;
+  text-align: center;
+  background: $body-color;
+  padding: 30px 0 10px 0;
+  img {
+    display: inline-block;
+  }
+}
+ul#footer-menu {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+#pigHat {
+  margin-top: 20px;
+  margin-bottom: -6px;
+  text-align: center;
+}
+//
+#fontFooterTopHeader {
+    font-size: 12px;
+  	font-weight: 500;
+  	line-height: 2.25;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: $bodyfont;
+}
+#fontFooterSecHeader{
+    font-family: $primaryfont;
+  	font-size: 28px;
+  	font-weight: bold;
+    margin: 0 0 0 0;
+}
+#fontFooterHeader {
+    font-size: 12px;
+  	font-weight: 500;
+  	line-height: 2.25;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-family: $bodyfont;
+}
+.fontCapital{
+text-transform: uppercase;
+}
+#social-footer {
+  // padding: 15px 0 15px 0;
+  padding: 15px 0;
+  // margin: 20px 0;
+  border-bottom-style: dotted;
+  border-top-style:dotted;
+  border-width: 1px;
+}
+#footerFlyingPigNL {
+  margin-top: 50px;
+}
+#footer-menu-desktop {
+    margin-top: 50px;
+}
+#footer-menu-desktop ul li {
+  display: inline;
+  font-weight: 400;
+}
+
+#footer-menu {
+  font-family: $bodyfont;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 3.21;
+  text-align: center;
+  text-transform: uppercase;
+}

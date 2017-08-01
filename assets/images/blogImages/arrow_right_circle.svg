@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VENUE-PAGE" transform="translate(-297.000000, -2074.000000)">
+            <g id="HUB" transform="translate(0.000000, 1795.000000)">
+                <g id="HUBLINK1" transform="translate(20.000000, 249.000000)">
+                    <g id="Oval" transform="translate(277.000000, 30.000000)">
+                        <circle fill="#3DCCB1" cx="23.5" cy="23.5" r="23.5"></circle>
+                        <path d="M30.5488839,24.2555469 L22.2949196,32.2805469 C21.7687411,32.7908594 20.9172768,32.7908594 20.3927054,32.2805469 C19.8690982,31.7702344 19.8690982,30.9424219 20.3927054,30.4324219 L27.6962054,23.3314844 L20.3939911,16.2317969 C19.8690982,15.7214844 19.8690982,14.8939844 20.3939911,14.3836719 C20.9185625,13.8721094 21.7700268,13.8721094 22.2949196,14.3836719 L30.5488839,22.4086719 C30.8114911,22.6636719 30.9419911,22.9971094 30.9419911,23.3314844 C30.9419911,23.6658594 30.8114911,24.0017969 30.5488839,24.2555469 Z" id="Fill-1-Copy" fill="#EDF2F0"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

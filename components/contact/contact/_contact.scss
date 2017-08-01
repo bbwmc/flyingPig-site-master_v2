@@ -1,0 +1,32 @@
+#contactImage {
+  margin-top: 30px;
+}
+
+// Subject Title
+#contactTitle{
+  font-family: $primaryfont;
+ font-size: 40px;
+ font-weight: bold;
+  // margin: 20px 0 20px 0;
+}
+
+#contactText {
+  font-family: $bodyfont;
+  color: $body-color;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.56;
+	letter-spacing: normal;
+	text-align: justify;
+}
+
+#contactHighlight {
+  color: $turq-color;
+  text-decoration: none;
+}
+
+#contactHighlight:hover{
+  color: $action-color;
+}
