@@ -1,5 +1,5 @@
 #latest-posts {
-  padding: 30px 0;
+  padding: 0 030px 0;
 
   h2 {
       @include title-font-type($body-color);
@@ -18,29 +18,35 @@
   img {
     border-radius: 2px;
   }
+
+  ul {
+    padding-left: 0px;
+    margin-bottom: 30px;
+  }
+
+  li a {
+    @extend .teamEmail;
+  }
 }
 
+// Latest Blog Writing
 .latest-blog-posts {
   text-align: center;
   // padding-top: 20px;
+
+  h3 {
+    font-family: $primaryfont;
+    font-size: 24px;
+    border-bottom-style: dotted;
+    border-width: 2px;
+    border-color:  $action-color;
+    text-transform: uppercase;
+    padding: 0px 0 10px 0;
+    margin: 15px 0 0 0;
+    display: inline-block;
+  }
 }
 
-//
-// .sidebar-titles-left {
-//   font-family: $primaryfont;
-//   font-size: 24px;
-//   border-bottom-style: dotted;
-//   border-width: 2px;
-//   border-color:  $action-color;
-//   text-transform: uppercase;
-//   padding: 0px 0 10px 0;
-//   margin: 15px 0 0 0;
-//   display: inline-block;
-// }
-
-.social-blog-icons {
-  margin-right: 20px;
-}
 
 .blogPostFooter {
   // border-bottom-style: dotted;
@@ -48,163 +54,70 @@
   border-width:1px;
   margin-bottom: 20px;
   background: $heading-color;
+
+  img {
+    margin-right: 20px;
+    width:27px;
+  }
 }
 
 
-
-
-
-
-
-
-
-
-#popularPostsOp1 {
-  margin: 10px 0 0 0px
-}
-
-.blogLocations {
-  background: $white-background;
-  // color: $body-color;
-  margin: 0px 30px 30px 30px;
-  // padding: 10px 10px 10px 10px;
-  border-radius: 30px;
-  line-height: 1.0;
-}
-
-.blogLocationArrow {
-  float: right;
-  margin: 10px 10px 0 0;
-
-}
-
-.optionsDisplay {
-  // margin: 0 0 0 0;
-  display: inline-block;
-  float: left;
-  margin-left: 20px
-}
-
-
-.sidebarTitles {
-  font-family: $primaryfont;
-  font-size: 24px;
-  border-bottom-style: dotted;
-  border-width: 2px;
-  border-color:  $action-color;
-  text-transform: uppercase;
-  padding: 20px 0 10px 0;
-  display: inline-block;
-}
-
-.sidebarSubTitles {
-  font-family: $bodyfont;
-  font-size: 18px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: $body-color;
-}
-
-.readMoreBtnBlog {
-    background-color: $action-color;
-    margin: 10px 0 0px 0;
-    border-radius: 50px;
-    border: none;
-    text-transform: uppercase;
-    padding: 10px 20px 10px 20px;
-
-    font-family: $bodyfont;
-    font-size: 11px;
-    font-weight: bold;
-    color: $white-background;
-}
-
-.blogButtonMargin {
-  margin-bottom: 30px;
-}
-
-#ourLocationsBlog {
-  margin-bottom: 0px;
-  font-family: $primaryfont;
-  font-size: 20px;
-  border-bottom-style: dotted;
-  border-width: 2px;
-  border-color:  $action-color;
-  text-transform: uppercase;
-  display: inline-block;
-}
-
-// #blogLocationOptions {
-//   background: $body-color;
-//   border-radius: 10px;
-// }
 
 .sidebar-title {
+  letter-spacing: 1.2px;
   border-bottom: solid 1px $turq-color;
   font-family: $bodyfont;
   font-size: 24px;
   font-weight: bold;
   color: $turq-color;
   text-transform: uppercase;
-  // display: inline;
   text-align: left;
   margin: 0px;
   padding-bottom: 2px;
   margin-bottom: 10px;
+
+  &:before {
+    content: url('../../assets/images/aboutUs/cross_tur_copy.png');
+    padding-right: 5px;
+    top: 2px;
+    position: relative;
+  }
 }
+
 
 #hostel-Options{
-  font-family: $bodyfont;
   line-height: 2.73;
   text-transform: uppercase;
-}
 
-#hostel-Options li a {
-    text-decoration: none;
-    color: $color-four;
+  li {
+    padding: 0px;
+    font-family: $primaryfont;
+  }
+
+  li a {
+      text-decoration: none;
+      color: $color-four;
       font-size: 20px;
+  }
 }
 
-
-
-
-#ourLocationsBlog h3 {
-  margin-bottom: 5px;
-  color: #fff;
+.social-media-multi-icon {
+  text-align: center;
+  padding: 20px 0 40px 0;
 }
 
-#rightBlogBackground {
-    background: $body-color;
-    margin-top: 20px;
-    border-radius: 10px;
-}
+.popular-posts {
+  margin: 20px 21px 10px 0px;
+  text-align: center;
 
-// #socialMediaIcons {
-//     margin: 30px 0 50px 0;
-// }
-
-
-#searchBar {
-  margin: 20px 0 20px 0;
-}
-
-#downArrow {
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-#socialMediaIcon {
-  background: #fff;
-  padding: 25px 60px 15px 60px;
-  padding: 10px 0 20px 0;
+    font-family: $primaryfont;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $color-four;
 
 }
 
-.blogIcons {
-  margin-left: 15px;
-  padding: 10px 0 10px 0;
-}
-
-#featuredPostsTitle{
-  margin: 0px;
+#instagramSection {
+  margin: 20px 0;
 }

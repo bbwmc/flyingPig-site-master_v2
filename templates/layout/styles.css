@@ -150,10 +150,10 @@ ul li {
   color: #393d41;
   font-weight: lighter; }
 
-.teamEmail, #faq-section p a {
+.teamEmail, #latest-posts li a, #faq-section p a {
   color: #ff851f; }
 
-.teamEmail:hover, #faq-section p a:hover {
+.teamEmail:hover, #latest-posts li a:hover, #faq-section p a:hover {
   color: #3dccb1; }
 
 .accord-question-title:after, #discover li a:after, #faq-section li a:after {
@@ -1177,7 +1177,7 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   padding-bottom: 15px; }
 
 #latest-posts {
-  padding: 30px 0; }
+  padding: 0 030px 0; }
   #latest-posts h2 {
     margin: 0;
     text-transform: uppercase;
@@ -1191,79 +1191,33 @@ https://github.com/yui/pure/blob/master/LICENSE.md
     margin-bottom: 20px; }
   #latest-posts img {
     border-radius: 2px; }
+  #latest-posts ul {
+    padding-left: 0px;
+    margin-bottom: 30px; }
 
 .latest-blog-posts {
   text-align: center; }
-
-.social-blog-icons {
-  margin-right: 20px; }
+  .latest-blog-posts h3 {
+    font-family: "Quicksand";
+    font-size: 24px;
+    border-bottom-style: dotted;
+    border-width: 2px;
+    border-color: #ff851f;
+    text-transform: uppercase;
+    padding: 0px 0 10px 0;
+    margin: 15px 0 0 0;
+    display: inline-block; }
 
 .blogPostFooter {
   border-width: 1px;
   margin-bottom: 20px;
   background: #edf2f0; }
-
-#popularPostsOp1 {
-  margin: 10px 0 0 0px; }
-
-.blogLocations {
-  background: #fff;
-  margin: 0px 30px 30px 30px;
-  border-radius: 30px;
-  line-height: 1.0; }
-
-.blogLocationArrow {
-  float: right;
-  margin: 10px 10px 0 0; }
-
-.optionsDisplay {
-  display: inline-block;
-  float: left;
-  margin-left: 20px; }
-
-.sidebarTitles {
-  font-family: "Quicksand";
-  font-size: 24px;
-  border-bottom-style: dotted;
-  border-width: 2px;
-  border-color: #ff851f;
-  text-transform: uppercase;
-  padding: 20px 0 10px 0;
-  display: inline-block; }
-
-.sidebarSubTitles {
-  font-family: "Roboto";
-  font-size: 18px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #393d41; }
-
-.readMoreBtnBlog {
-  background-color: #ff851f;
-  margin: 10px 0 0px 0;
-  border-radius: 50px;
-  border: none;
-  text-transform: uppercase;
-  padding: 10px 20px 10px 20px;
-  font-family: "Roboto";
-  font-size: 11px;
-  font-weight: bold;
-  color: #fff; }
-
-.blogButtonMargin {
-  margin-bottom: 30px; }
-
-#ourLocationsBlog {
-  margin-bottom: 0px;
-  font-family: "Quicksand";
-  font-size: 20px;
-  border-bottom-style: dotted;
-  border-width: 2px;
-  border-color: #ff851f;
-  text-transform: uppercase;
-  display: inline-block; }
+  .blogPostFooter img {
+    margin-right: 20px;
+    width: 27px; }
 
 .sidebar-title {
+  letter-spacing: 1.2px;
   border-bottom: solid 1px #3dccb1;
   font-family: "Roboto";
   font-size: 24px;
@@ -1274,44 +1228,38 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   margin: 0px;
   padding-bottom: 2px;
   margin-bottom: 10px; }
+  .sidebar-title:before {
+    content: url("../../assets/images/aboutUs/cross_tur_copy.png");
+    padding-right: 5px;
+    top: 2px;
+    position: relative; }
 
 #hostel-Options {
-  font-family: "Roboto";
   line-height: 2.73;
   text-transform: uppercase; }
+  #hostel-Options li {
+    padding: 0px;
+    font-family: "Quicksand"; }
+  #hostel-Options li a {
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: 20px; }
 
-#hostel-Options li a {
-  text-decoration: none;
-  color: #d9d9d9;
-  font-size: 20px; }
+.social-media-multi-icon {
+  text-align: center;
+  padding: 20px 0 40px 0; }
 
-#ourLocationsBlog h3 {
-  margin-bottom: 5px;
-  color: #fff; }
+.popular-posts {
+  margin: 20px 21px 10px 0px;
+  text-align: center;
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #d9d9d9; }
 
-#rightBlogBackground {
-  background: #393d41;
-  margin-top: 20px;
-  border-radius: 10px; }
-
-#searchBar {
-  margin: 20px 0 20px 0; }
-
-#downArrow {
-  margin-top: 15px;
-  margin-bottom: 30px; }
-
-#socialMediaIcon {
-  background: #fff;
-  padding: 25px 60px 15px 60px;
-  padding: 10px 0 20px 0; }
-
-.blogIcons {
-  margin-left: 15px;
-  padding: 10px 0 10px 0; }
-
-#featuredPostsTitle {
-  margin: 0px; }
+#instagramSection {
+  margin: 20px 0; }
 
 #faqHeroWrapper {
   background: #d9d9d9;
