@@ -1,68 +1,102 @@
-#gallery {
-  // background: $white-background;
-  color: $body-color;
-  // padding: 40px 0 0 0;
-}
+  #gallery-section {
+    padding: 30px 0 0 0;
 
+    h2 {
+      @include title-font-type($body-color);
+    }
 
+    p {
+      @extend .bodyfont;
+      margin-top: 0;
+    }
 
-#galleryTitle {
-  font-family: $primaryfont;
-  font-size: 28px;
-	font-weight: bold;
-  margin: 0 0 0 0;
-  // margin: 10px 0 0 0;
-}
+    button {
+      @extend .action-button;
+    }
 
-#galleryTxt {
-  // padding: 0 0px 0 30px;
-  font-family: $bodyfont;
-  color: $body-color;
-  line-height: 1.56;
-	// text-align: justify;
-  // margin: 30px 0 0 0;
-  font-size: 16px;
-}
+    #media-gallery-desktop {
+      // Desktop ratings
 
-#galleryTxt p {
-  margin-bottom: 40px;
-  margin-top: 0px;
-}
+      p span {
+        font-weight: bold;
+      }
 
-#galleryViewBtn {
-  background: $action-color;
-  color: $white-background;
-  font-family: $bodyfont;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50px;
-  padding: 10px 40px 10px 40px;
-  margin: 40px 0 20px 0;
-  font-size: 14px;
-}
+      .ratings-Bg {
+        background: $turq-color;
+        color: $body-color;
+        border-radius: 10px;
+        padding: 20px 0 20px 0;
+      }
 
-.fontCapital{
-text-transform: uppercase;
-}
+      .ratingInfo{
+        padding: 15px 0 15px 0;
+        border-top-style:dotted;
+        border-width: 1px;
+      }
 
-#menuItems {
-  border-bottom: dotted;
-}
+      .textRight1 {
+        color: $body-color;
+        font-family: $bodyfont;
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.69;
+        letter-spacing: normal;
+        text-align: justify;
+        padding-right: 0px;
+        padding-left: 55px;
+        padding-top: 0px;
+      }
 
-.desktopMediaGallery {
-  display: inline-block;
-}
+      .textRight2 {
+        color: $body-color;
+        font-family: $bodyfont;
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.69;
+        letter-spacing: normal;
+        text-align: justify;
+        padding-left: 4px;
+        padding-top: 0px;
+      }
 
-// #mediaGalleryDesktop {
-//   padding-top: 30px;
-// }
+      .ratingsTitle {
+        font-family: $primaryfont;
+        color: $white-background;
+      	font-size: 28px;
+      	font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+      }
 
-// #galleryMobile img {
-//   padding:0 20px 20px 0;
-// }
+      .percentageSize {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 72px;
+      	font-weight: bold;
+      	text-align: center;
+        font-family: $bodyfont;
+      }
 
-#galleryPic1 {
+      .averageRating{
+        line-height: 1.69;
+        margin-top: 0px;
+        font-size: 16px;
+      	text-align: center;
+        font-family: $bodyfont;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+        border-bottom: $body-color;
+        border-bottom-style:dotted;
+        border-width: 1px;
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+
+    }
+  }
+
+// Desktop Media Gallery
+.galleryPic1 {
   width:268px;
   height:238px;
   border-radius:10px;
@@ -86,89 +120,4 @@ text-transform: uppercase;
   border-radius:10px;
   overflow:hidden;
     float: left;
-}
-
-
-// Desktop ratings
-
-#ratings-Bg {
-  background: $turq-color;
-  color: $body-color;
-  border-radius: 10px;
-  padding: 20px 0 20px 0;
-}
-
-#ratingsTitle {
-  font-family: $primaryfont;
-  color: $white-background;
-	font-size: 28px;
-	font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#percentageSize {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 72px;
-	font-weight: bold;
-	text-align: center;
-  font-family: $bodyfont;
-}
-
-#averageRating{
-  line-height: 1.69;
-  margin-top: 0px;
-  font-size: 16px;
-	// font-weight: bold;
-	text-align: center;
-  font-family: $bodyfont;
-  text-transform: uppercase;
-  padding-bottom: 15px;
-    border-bottom: $body-color;
-    border-bottom-style:dotted;
-    border-width: 1px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-#ratingInfo{
-  padding: 15px 0 15px 0;
-  border-top-style:dotted;
-  border-width: 1px;
-}
-
-#textRight1 {
-  // text-align: left;
-  color: $body-color;
-  font-family: $bodyfont;
-  text-align: left;
-
-  font-family: $bodyfont;
-  font-size: 16px;
-  // font-weight: 500;
-  line-height: 1.69;
-  letter-spacing: normal;
-  text-align: justify;
-  color: $body-color;
-  padding-right: 0px;
-  padding-left: 55px;
-  padding-top: 0px;
-}
-
-#textRight2 {
-  // text-align: left;
-  color: $body-color;
-  font-family: $bodyfont;
-  text-align: left;
-
-  font-family: $bodyfont;
-  font-size: 16px;
-  // font-weight: 500;
-  line-height: 1.69;
-  letter-spacing: normal;
-  text-align: justify;
-  color: $body-color;
-  padding-left: 4px;
-  padding-top: 0px;
 }

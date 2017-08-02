@@ -89,7 +89,7 @@
   max-width: 1200px;
   margin: auto; }
 
-.bodyfont, #locations p, #reasons p, #discover p {
+.bodyfont, #locations p, #reasons p, #discover p, #gallery-section p {
   font-family: "Roboto";
   color: #393d41;
   line-height: 1.76;
@@ -112,6 +112,18 @@ ul li {
   font-family: "Roboto";
   font-size: 15px;
   font-weight: 500; }
+
+.action-button, #gallery-section button {
+  background: #ff851f;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 10px 40px 10px 40px; }
 
 .accord-question-title, #discover li a, #faq-section li a {
   font-family: "Quicksand" !important;
@@ -594,47 +606,79 @@ ul#footer-menu {
   color: #d9d9d9; }
 
 /* gallery */
-#gallery {
-  color: #393d41; }
+#gallery-section {
+  padding: 30px 0 0 0; }
+  #gallery-section h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #393d41; }
+  #gallery-section p {
+    margin-top: 0; }
+  #gallery-section #media-gallery-desktop p span {
+    font-weight: bold; }
+  #gallery-section #media-gallery-desktop .ratings-Bg {
+    background: #3dccb1;
+    color: #393d41;
+    border-radius: 10px;
+    padding: 20px 0 20px 0; }
+  #gallery-section #media-gallery-desktop .ratingInfo {
+    padding: 15px 0 15px 0;
+    border-top-style: dotted;
+    border-width: 1px; }
+  #gallery-section #media-gallery-desktop .textRight1 {
+    color: #393d41;
+    font-family: "Roboto";
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: justify;
+    padding-right: 0px;
+    padding-left: 55px;
+    padding-top: 0px; }
+  #gallery-section #media-gallery-desktop .textRight2 {
+    color: #393d41;
+    font-family: "Roboto";
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: justify;
+    padding-left: 4px;
+    padding-top: 0px; }
+  #gallery-section #media-gallery-desktop .ratingsTitle {
+    font-family: "Quicksand";
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase; }
+  #gallery-section #media-gallery-desktop .percentageSize {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Roboto"; }
+  #gallery-section #media-gallery-desktop .averageRating {
+    line-height: 1.69;
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: #393d41;
+    border-bottom-style: dotted;
+    border-width: 1px;
+    margin-left: 25px;
+    margin-right: 25px; }
 
-#galleryTitle {
-  font-family: "Quicksand";
-  font-size: 28px;
-  font-weight: bold;
-  margin: 0 0 0 0; }
-
-#galleryTxt {
-  font-family: "Roboto";
-  color: #393d41;
-  line-height: 1.56;
-  font-size: 16px; }
-
-#galleryTxt p {
-  margin-bottom: 40px;
-  margin-top: 0px; }
-
-#galleryViewBtn {
-  background: #ff851f;
-  color: #fff;
-  font-family: "Roboto";
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50px;
-  padding: 10px 40px 10px 40px;
-  margin: 40px 0 20px 0;
-  font-size: 14px; }
-
-.fontCapital {
-  text-transform: uppercase; }
-
-#menuItems {
-  border-bottom: dotted; }
-
-.desktopMediaGallery {
-  display: inline-block; }
-
-#galleryPic1 {
+.galleryPic1 {
   width: 268px;
   height: 238px;
   border-radius: 10px;
@@ -657,119 +701,68 @@ ul#footer-menu {
   overflow: hidden;
   float: left; }
 
-#ratings-Bg {
-  background: #3dccb1;
-  color: #393d41;
-  border-radius: 10px;
-  padding: 20px 0 20px 0; }
-
-#ratingsTitle {
-  font-family: "Quicksand";
-  color: #fff;
-  font-size: 28px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase; }
-
-#percentageSize {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 72px;
-  font-weight: bold;
-  text-align: center;
-  font-family: "Roboto"; }
-
-#averageRating {
-  line-height: 1.69;
-  margin-top: 0px;
-  font-size: 16px;
-  text-align: center;
-  font-family: "Roboto";
-  text-transform: uppercase;
-  padding-bottom: 15px;
-  border-bottom: #393d41;
-  border-bottom-style: dotted;
-  border-width: 1px;
-  margin-left: 25px;
-  margin-right: 25px; }
-
-#ratingInfo {
-  padding: 15px 0 15px 0;
-  border-top-style: dotted;
-  border-width: 1px; }
-
-#textRight1 {
-  color: #393d41;
-  font-family: "Roboto";
-  text-align: left;
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.69;
-  letter-spacing: normal;
-  text-align: justify;
-  color: #393d41;
-  padding-right: 0px;
-  padding-left: 55px;
-  padding-top: 0px; }
-
-#textRight2 {
-  color: #393d41;
-  font-family: "Roboto";
-  text-align: left;
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.69;
-  letter-spacing: normal;
-  text-align: justify;
-  color: #393d41;
-  padding-left: 4px;
-  padding-top: 0px; }
-
 /* gallery */
-#ratingsBg {
-  background: #3dccb1;
-  color: #393d41;
-  border-radius: 10px;
-  padding: 20px 0 20px 0;
-  margin: 20px; }
-
-#ratingsTitle {
-  font-family: "Quicksand";
-  color: #fff;
-  font-size: 28px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase; }
-
-#percentageSize {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 72px;
-  font-weight: bold;
-  text-align: center;
-  font-family: "Roboto"; }
-
-#averageRating {
-  line-height: 1.69;
-  margin-top: 0px;
-  font-size: 16px;
-  text-align: center;
-  font-family: "Roboto";
-  text-transform: uppercase; }
-
-#textRight {
-  text-align: left;
-  color: #393d41;
-  font-family: "Roboto"; }
-
-#ratingInfo {
-  padding: 5px 0px 0 50px; }
-
-#textRight1 span {
-  font-weight: bold; }
-
-#textRight2 span {
-  font-weight: bold; }
+#piggy-ratings {
+  margin: 20px 20px; }
+  #piggy-ratings p span {
+    font-weight: bold; }
+  #piggy-ratings .ratings-Bg {
+    background: #3dccb1;
+    color: #393d41;
+    border-radius: 10px;
+    padding: 20px 0 20px 0; }
+  #piggy-ratings .ratingInfo {
+    padding: 15px 0 15px 0;
+    border-top-style: dotted;
+    border-width: 1px; }
+  #piggy-ratings .textRight1 {
+    color: #393d41;
+    font-family: "Roboto";
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: justify;
+    padding-right: 0px;
+    padding-left: 55px;
+    padding-top: 0px; }
+  #piggy-ratings .textRight2 {
+    color: #393d41;
+    font-family: "Roboto";
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: justify;
+    padding-left: 4px;
+    padding-top: 0px; }
+  #piggy-ratings .ratingsTitle {
+    font-family: "Quicksand";
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase; }
+  #piggy-ratings .percentageSize {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Roboto"; }
+  #piggy-ratings .averageRating {
+    line-height: 1.69;
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: #393d41;
+    border-bottom-style: dotted;
+    border-width: 1px;
+    margin-left: 25px;
+    margin-right: 25px; }
 
 /* offsets */
 /*
