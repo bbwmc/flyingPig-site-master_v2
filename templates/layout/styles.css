@@ -113,7 +113,7 @@ ul li {
   font-size: 15px;
   font-weight: 500; }
 
-.action-button, #gallery-section button {
+.action-button, #gallery-section button, #featured-blog button {
   background: #ff851f;
   color: #fff;
   font-family: "Roboto";
@@ -1144,16 +1144,31 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   font-size: 18px;
   text-transform: uppercase; }
 
-#featuredSection {
-  color: #393d41;
-  padding: 20px 0 20px 0; }
+#featured-blog {
+  padding: 30px 0; }
+  #featured-blog h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #393d41; }
+  #featured-blog h3 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #393d41;
+    font-size: 25px;
+    padding: 15px; }
 
-#featuredPostsTitle {
-  font-family: "Quicksand";
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 40px;
-  margin: 0px 0 10px 0; }
+.featured-blog-text {
+  text-align: center;
+  background: #edf2f0;
+  padding-bottom: 15px; }
 
 #popularPostsOp1 {
   margin: 10px 0 0 0px; }

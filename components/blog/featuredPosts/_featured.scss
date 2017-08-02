@@ -1,23 +1,27 @@
-#featuredSection {
-  // background: $color-four;
-  color: $body-color;
-  padding: 20px 0 20px 0;
+#featured-blog {
+  padding: 30px 0;
+
+  h2 {
+      @include title-font-type($body-color);
+  }
+
+  h3 {
+
+    @include title-font-type($body-color);
+    font-size: 25px;
+    padding: 15px;
+
+  }
+
+  button {
+      @extend .action-button;
+  }
+
+
 }
 
-#featuredPostsTitle{
-  font-family: $primaryfont;
-	font-weight: bold;
-  // margin: 10px 0 40px 0;
-  text-transform: uppercase;
-  font-size: 40px;
-  margin: 0px 0 10px 0;
+.featured-blog-text {
+  text-align: center;
+  background: $heading-color;
+  padding-bottom: 15px;
 }
-
-// #whiteBlogBg {
-//   background: #fff;
-//   margin: 0 0 0 0;
-// }
-//
-// #marginReduce {
-//   margin: 0 0 0 0;
-// }
