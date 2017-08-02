@@ -8,7 +8,7 @@
 
 
     <!--Review 1 -->
-    <div class=" pure-u-1 pure-u-sm-1-3">
+    <div class=" pure-u-1 pure-u-md-1-3">
 
     <div class="outerDiv">
 
@@ -19,11 +19,11 @@
 
           <!-- Right Details -->
           <div class="infoDivRight1 pure-u-1-2">
-                  <p><i class="fa fa-home" aria-hidden="true"></i> Lorem ipsum dolor</p>
+                  <p><i class="fa fa-home" aria-hidden="true"></i> Lorem ipsum</p>
 
-                  <p><i class="fa fa-user-circle" aria-hidden="true"></i> Lorem ipsum dolor</p>
+                  <p><i class="fa fa-user-circle" aria-hidden="true"></i> Lorem ipsum</p>
 
-                  <p><i class="fa fa-wrench" aria-hidden="true"></i> Lorem ipsum dolor</p>
+                  <p><i class="fa fa-wrench" aria-hidden="true"></i> Lorem ipsum</p>
             </div> <!-- .infoDivRight1 pure-u-1-2-->
 
           <!-- Tale Review -->
@@ -37,7 +37,7 @@
 
 
     <!--Review 2 -->
-    <div class="mobile-hide pure-u-1 pure-u-sm-1-3">
+    <div class="mobile-hide pure-u-1 pure-u-md-1-3">
 
     <div class="outerDiv">
 
@@ -48,11 +48,11 @@
 
           <!-- Right Details -->
           <div class="infoDivRight1 pure-u-1-2">
-                  <p><i class="fa fa-home" aria-hidden="true"></i> Lorem ipsum dolor</p>
+                  <p><i class="fa fa-home" aria-hidden="true"></i> Lorem ipsum</p>
 
-                  <p><i class="fa fa-user-circle" aria-hidden="true"></i> Lorem ipsum dolor</p>
+                  <p><i class="fa fa-user-circle" aria-hidden="true"></i> Lorem ipsum</p>
 
-                  <p><i class="fa fa-wrench" aria-hidden="true"></i> Lorem ipsum dolor</p>
+                  <p><i class="fa fa-wrench" aria-hidden="true"></i> Lorem ipsum</p>
             </div> <!-- .infoDivRight1 pure-u-1-2-->
 
           <!-- Tale Review -->
@@ -66,7 +66,7 @@
 
 
     <!--Review 3 -->
-    <div class="mobile-hide pure-u-1 pure-u-sm-1-3">
+    <div class="mobile-hide pure-u-1 pure-u-md-1-3">
 
     <div class="outerDiv">
 
@@ -77,11 +77,11 @@
 
           <!-- Right Details -->
           <div class="infoDivRight1 pure-u-1-2">
-                  <p><i class="fa fa-home" aria-hidden="true"></i> Lorem ipsum dolor</p>
+                  <p><i class="fa fa-home" aria-hidden="true"></i> Lorem ipsum</p>
 
-                  <p><i class="fa fa-user-circle" aria-hidden="true"></i> Lorem ipsum dolor</p>
+                  <p><i class="fa fa-user-circle" aria-hidden="true"></i> Lorem ipsum</p>
 
-                  <p><i class="fa fa-wrench" aria-hidden="true"></i> Lorem ipsum dolor</p>
+                  <p><i class="fa fa-wrench" aria-hidden="true"></i> Lorem ipsum</p>
             </div> <!-- .infoDivRight1 pure-u-1-2-->
 
           <!-- Tale Review -->

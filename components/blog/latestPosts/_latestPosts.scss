@@ -1,3 +1,64 @@
+#latest-posts {
+  padding: 30px 0;
+
+  h2 {
+      @include title-font-type($body-color);
+      margin-bottom: 10px;
+  }
+
+  p {
+     @extend .bodyfont;
+  }
+
+  button {
+    @extend .action-button;
+    margin-bottom: 20px;
+  }
+
+  img {
+    border-radius: 2px;
+  }
+}
+
+.latest-blog-posts {
+  text-align: center;
+  // padding-top: 20px;
+}
+
+//
+// .sidebar-titles-left {
+//   font-family: $primaryfont;
+//   font-size: 24px;
+//   border-bottom-style: dotted;
+//   border-width: 2px;
+//   border-color:  $action-color;
+//   text-transform: uppercase;
+//   padding: 0px 0 10px 0;
+//   margin: 15px 0 0 0;
+//   display: inline-block;
+// }
+
+.social-blog-icons {
+  margin-right: 20px;
+}
+
+.blogPostFooter {
+  // border-bottom-style: dotted;
+  // border-top-style: dotted;
+  border-width:1px;
+  margin-bottom: 20px;
+  background: $heading-color;
+}
+
+
+
+
+
+
+
+
+
+
 #popularPostsOp1 {
   margin: 10px 0 0 0px
 }
@@ -24,17 +85,6 @@
   margin-left: 20px
 }
 
-.sidebarTitlesLeft {
-  font-family: $primaryfont;
-  font-size: 24px;
-  border-bottom-style: dotted;
-  border-width: 2px;
-  border-color:  $action-color;
-  text-transform: uppercase;
-  padding: 0px 0 10px 0;
-  margin: 15px 0 10px 0;
-  display: inline-block;
-}
 
 .sidebarTitles {
   font-family: $primaryfont;
@@ -129,9 +179,9 @@
     border-radius: 10px;
 }
 
-#socialMediaIcons {
-    margin: 30px 0 50px 0;
-}
+// #socialMediaIcons {
+//     margin: 30px 0 50px 0;
+// }
 
 
 #searchBar {
@@ -149,25 +199,6 @@
   padding: 10px 0 20px 0;
 
 }
-
-.latestPostWriting {
-  font-family: $bodyfont;
-  font-size: 16px;
-  line-height: 1.56;
-  text-align: justify;
-}
-
-.latestPostWriting p {
-  padding: 0 10px;
-}
-
-.blogPostFooter {
-  border-bottom-style: dotted;
-  border-top-style: dotted;
-  border-width:1px;
-  margin-bottom: 20px;
-}
-
 
 .blogIcons {
   margin-left: 15px;

@@ -17,8 +17,7 @@
         <div class="pure-u-1 pure-u-sm-1-3">
             <img class="pure-img" style="width:350; height:auto;" src="../../assets/images/locations/picture-downtown.png" alt="pig-tale" />
 
-            <h3 class="actionColourLocation">Discover</h3>
-            <h3 class="primaryfontLocations">Downtown</h3>
+            <h3 class="hostel-locations-home"><span>Discover</span>Downtown</h3>
 
         </div> <!-- locations-x -->
 
@@ -26,8 +25,7 @@
         <div class="pure-u-1 pure-u-sm-1-3">
             <img class="pure-img" style="width:350; height:auto;" src="../../assets/images/locations/picture-uptown.png" alt="pig-tale" />
 
-            <h3 class="actionColourLocation">Discover</h3>
-            <h3 class="primaryfontLocations">Uptown</h3>
+              <h3 class="hostel-locations-home"><span>Discover</span>Uptown</h3>
 
       </div> <!-- locations-x -->
 
@@ -35,8 +33,7 @@
       <div class="pure-u-1 pure-u-sm-1-3">
             <img class="pure-img" style="width:350; height:auto;" src="../../assets/images/locations/picture-beach.png" alt="pig-tale" />
 
-            <h3 class="actionColourLocation">Discover</h3>
-            <h3 class="primaryfontLocations">Beach</h3>
+              <h3 class="hostel-locations-home"><span>Discover</span>Beach</h3>
 
           </div> <!-- locations-x -->
         </div> <!-- container pure-g -->

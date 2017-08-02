@@ -15,20 +15,27 @@
 
 }
 
-
-.primaryfontLocations {
-  font-family: $primaryfont;
-  font-size: 50px;
-  margin: 0 0 20px 0;
-  text-transform: uppercase;
+.hostel-locations-home {
   color: $heading-color;
-  text-align: center;
-}
-
-.actionColourLocation {
-  color: $action-color;
   margin: 0 0 -10px 0;
-  font-size: 22px;
+  font-size: 50px;
   font-family: $primaryfont;
   text-align: center;
+  text-transform: uppercase;
+
+  @include bp(mama-bear){
+    font-size: 30px;
+  }
+
+  @include bp(baby-bear){
+    font-size: 50px;
+  }
+
+ span {
+   display: block;
+   color: $action-color;
+   font-size: 22px;
+   margin: 0 0 -10px 0;
+   text-transform: none;
+ }
 }

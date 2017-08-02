@@ -89,7 +89,7 @@
   max-width: 1200px;
   margin: auto; }
 
-.bodyfont, #locations p, #reasons p, #discover p, #gallery-section p {
+.bodyfont, #locations p, #reasons p, #discover p, #gallery-section p, #latest-posts p {
   font-family: "Roboto";
   color: #393d41;
   line-height: 1.76;
@@ -113,7 +113,7 @@ ul li {
   font-size: 15px;
   font-weight: 500; }
 
-.action-button, #gallery-section button, #featured-blog button {
+.action-button, #gallery-section button, #featured-blog button, #latest-posts button {
   background: #ff851f;
   color: #fff;
   font-family: "Roboto";
@@ -317,20 +317,25 @@ ul li {
     color: #edf2f0;
     margin: 0px; }
 
-.primaryfontLocations {
-  font-family: "Quicksand";
-  font-size: 50px;
-  margin: 0 0 20px 0;
-  text-transform: uppercase;
+.hostel-locations-home {
   color: #edf2f0;
-  text-align: center; }
-
-.actionColourLocation {
-  color: #ff851f;
   margin: 0 0 -10px 0;
-  font-size: 22px;
+  font-size: 50px;
   font-family: "Quicksand";
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
+  @media (max-width: 1250px) {
+    .hostel-locations-home {
+      font-size: 30px; } }
+  @media (max-width: 600px) {
+    .hostel-locations-home {
+      font-size: 50px; } }
+  .hostel-locations-home span {
+    display: block;
+    color: #ff851f;
+    font-size: 22px;
+    margin: 0 0 -10px 0;
+    text-transform: none; }
 
 /* reasons */
 #reasons {
@@ -372,8 +377,8 @@ ul li {
 .outerDiv {
   position: relative;
   background: #fff;
-  height: 380px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  padding-bottom: 40px; }
 
 .innerDiv {
   position: absolute;
@@ -393,9 +398,10 @@ ul li {
   font-family: "Roboto";
   font-weight: 500;
   line-height: 1.4;
-  text-align: right;
+  text-align: center;
   padding: 20px 0 20px 0;
-  width: 250px; }
+  width: 250px;
+  padding-left: 50px; }
 
 .infoDivRight1 p {
   margin: 0px 0 0px 0;
@@ -1170,6 +1176,33 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   background: #edf2f0;
   padding-bottom: 15px; }
 
+#latest-posts {
+  padding: 30px 0; }
+  #latest-posts h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #393d41;
+    margin-bottom: 10px; }
+  #latest-posts button {
+    margin-bottom: 20px; }
+  #latest-posts img {
+    border-radius: 2px; }
+
+.latest-blog-posts {
+  text-align: center; }
+
+.social-blog-icons {
+  margin-right: 20px; }
+
+.blogPostFooter {
+  border-width: 1px;
+  margin-bottom: 20px;
+  background: #edf2f0; }
+
 #popularPostsOp1 {
   margin: 10px 0 0 0px; }
 
@@ -1187,17 +1220,6 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   display: inline-block;
   float: left;
   margin-left: 20px; }
-
-.sidebarTitlesLeft {
-  font-family: "Quicksand";
-  font-size: 24px;
-  border-bottom-style: dotted;
-  border-width: 2px;
-  border-color: #ff851f;
-  text-transform: uppercase;
-  padding: 0px 0 10px 0;
-  margin: 15px 0 10px 0;
-  display: inline-block; }
 
 .sidebarTitles {
   font-family: "Quicksand";
@@ -1272,9 +1294,6 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   margin-top: 20px;
   border-radius: 10px; }
 
-#socialMediaIcons {
-  margin: 30px 0 50px 0; }
-
 #searchBar {
   margin: 20px 0 20px 0; }
 
@@ -1286,21 +1305,6 @@ https://github.com/yui/pure/blob/master/LICENSE.md
   background: #fff;
   padding: 25px 60px 15px 60px;
   padding: 10px 0 20px 0; }
-
-.latestPostWriting {
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 1.56;
-  text-align: justify; }
-
-.latestPostWriting p {
-  padding: 0 10px; }
-
-.blogPostFooter {
-  border-bottom-style: dotted;
-  border-top-style: dotted;
-  border-width: 1px;
-  margin-bottom: 20px; }
 
 .blogIcons {
   margin-left: 15px;
