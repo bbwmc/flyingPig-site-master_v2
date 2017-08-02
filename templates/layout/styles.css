@@ -79,12 +79,25 @@
 .clearfix:after {
   clear: both; }
 
-.bodyfont, #discover p {
+.fontCapital {
+  text-transform: uppercase; }
+
+.alignCenter {
+  text-align: center; }
+
+.pure-g {
+  max-width: 1200px;
+  margin: auto; }
+
+.bodyfont, #locations p, #reasons p, #discover p {
   font-family: "Roboto";
   color: #393d41;
   line-height: 1.76;
   text-align: justify;
   font-size: 17px; }
+
+.piggy-tale-title-logo {
+  margin: auto; }
 
 .title-font {
   margin: 0;
@@ -99,6 +112,47 @@ ul li {
   font-family: "Roboto";
   font-size: 15px;
   font-weight: 500; }
+
+.accord-question-title, #discover li a, #faq-section li a {
+  font-family: "Quicksand" !important;
+  text-transform: uppercase;
+  color: #3dccb1; }
+
+.question-titles, #discover ul li, #faq-section ul li {
+  font-size: 18px;
+  color: #393d41;
+  padding: 15px 0;
+  line-height: 1.6;
+  border-bottom-style: dotted;
+  border-width: 1px;
+  position: relative;
+  line-height: 1.25;
+  text-align: justify;
+  list-style-type: none; }
+
+.hidden-info, #discover #dropDownMenu p, #faq-section p {
+  display: none;
+  font-size: 14px;
+  font-family: "Roboto";
+  line-height: 1.76;
+  color: #393d41;
+  font-weight: lighter; }
+
+.teamEmail, #faq-section p a {
+  color: #ff851f; }
+
+.teamEmail:hover, #faq-section p a:hover {
+  color: #3dccb1; }
+
+.accord-question-title:after, #discover li a:after, #faq-section li a:after {
+  content: " +";
+  position: absolute;
+  right: +50px; }
+
+.accord-question-title.action:after, #discover li a.action:after, #faq-section li a.action:after {
+  content: " -";
+  position: absolute;
+  right: +50px; }
 
 /* nav styles */
 #navArrow {
@@ -236,80 +290,54 @@ ul li {
   text-transform: uppercase; }
 
 /* locations */
-#locationsWrapper {
+#locations {
   background: #393d41;
-  color: #edf2f0;
   padding: 40px 0 20px 0; }
-
-#titleFont {
-  font-family: "Quicksand";
-  font-size: 40px;
-  font-weight: bold;
-  margin-top: 4px; }
-
-.fontCapital {
-  text-transform: uppercase; }
-
-.alignCenter {
-  text-align: center; }
-
-#locationTxt {
-  padding: 0 30px 20px 30px;
-  font-size: 17px;
-  font-weight: 300;
-  line-height: 1.6;
-  text-align: justify;
-  font-family: "Roboto"; }
-
-#locationTxt p {
-  margin: 0 100px; }
+  #locations h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #edf2f0; }
+  #locations p {
+    color: #edf2f0;
+    margin: 0px; }
 
 .primaryfontLocations {
   font-family: "Quicksand";
   font-size: 50px;
   margin: 0 0 20px 0;
   text-transform: uppercase;
-  color: #edf2f0; }
+  color: #edf2f0;
+  text-align: center; }
 
 .actionColourLocation {
   color: #ff851f;
   margin: 0 0 -10px 0;
   font-size: 22px;
-  font-family: "Quicksand"; }
-
-.pure-g {
-  max-width: 1200px;
-  margin: auto; }
+  font-family: "Quicksand";
+  text-align: center; }
 
 /* reasons */
 #reasons {
-  padding: 40px 0 0 0; }
-
-#choose {
-  margin-top: 6px;
-  background: #fff;
-  color: #ff851f;
-  text-transform: uppercase;
-  font-family: "Quicksand";
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 0px; }
-
-#rsnTxt {
-  font-size: 17px;
-  font-family: "Roboto";
-  color: #393d41;
-  font-weight: 400;
-  line-height: 1.76;
-  text-align: justify;
-  padding-top: 0px; }
-
-#rsnTxt p {
-  margin-top: 0px;
-  margin-bottom: 0px; }
-
-#amstImg {
-  width: 100%; }
+  padding: 20px 0 0 0; }
+  #reasons p {
+    margin: 0px; }
+  #reasons img {
+    width: 100%;
+    position: relative;
+    top: -20px; }
+  #reasons h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff851f;
+    text-align: left; }
 
 /* tales */
 #talesWrapper {
@@ -317,37 +345,25 @@ ul li {
   background: #3dccb1;
   padding-top: 20px; }
 
-#talesTitle {
-  font-family: "Quicksand";
-  font-size: 28px;
-  font-weight: bold;
-  margin: 0 0 0 0; }
+#tales {
+  background: #3dccb1;
+  padding: 20px 0px 30px 0; }
+  #tales h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #393d41; }
 
-#reviewTxt {
-  padding: 0 10px 0 10px; }
-
-#taleProfile {
-  border-radius: 100px; }
-
-#taleBtn {
-  background: #ff851f;
-  color: #fff;
-  font-family: "Roboto";
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50px;
-  padding: 10px 30px 10px 30px;
-  font-size: 14px;
-  margin-top: 40px; }
-
-#outerDiv {
+.outerDiv {
   position: relative;
   background: #fff;
-  height: 400px;
+  height: 380px;
   border-radius: 10px; }
 
-#innerDiv {
+.innerDiv {
   position: absolute;
   width: 90px;
   height: 90px;
@@ -360,23 +376,21 @@ ul li {
   font-weight: 500;
   line-height: 1.5; }
 
-#infoDivRight1 {
+.infoDivRight1 {
   color: #d9d9d9;
   font-family: "Roboto";
   font-weight: 500;
   line-height: 1.4;
-  text-align: center;
-  padding: 10px 0 10px 0; }
+  text-align: right;
+  padding: 20px 0 20px 0;
+  width: 250px; }
 
-.detailsSection {
+.infoDivRight1 p {
   margin: 0px 0 0px 0;
-  padding-top: 12px;
+  padding-top: 10px;
   font-family: "Roboto"; }
 
-#reviewTales {
-  margin: 0 30px 0 30px; }
-
-#borderTales {
+.borderTales p {
   padding: 15px 0 15px 0;
   border-bottom-style: dotted;
   border-top-style: dotted;
@@ -386,36 +400,8 @@ ul li {
   font-family: "Quicksand";
   font-size: 17px;
   font-weight: bold;
-  line-height: 1.59; }
-
-.fontCapital {
-  text-transform: uppercase; }
-
-#thirdFont {
-  font-family: "Norican";
-  font-size: 24px;
-  color: #3dccb1;
-  font-weight: normal;
-  display: inline; }
-
-#socialTaleImages {
-  display: inline; }
-
-.taleImg {
-  margin-left: 10px; }
-
-#talesBtn {
-  background: #ff851f;
-  color: #edf2f0;
-  font-family: "Roboto";
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50px;
-  padding: 10px 40px 10px 40px;
-  margin: 30px 0 50px 0;
-  font-size: 14px;
-  text-transform: uppercase; }
+  line-height: 1.59;
+  margin: 0 30px 0 30px; }
 
 /* footer */
 #primary-footer {
@@ -438,7 +424,7 @@ ul#footer-menu {
       margin-right: 0; }
 
 #pigHat {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: -6px;
   text-align: center; }
 
@@ -588,117 +574,23 @@ ul#footer-menu {
   color: #393d41; }
 
 /* discover */
-#discoverHeading {
-  padding-top: 40px; }
-
 #discover {
-  color: #393d41; }
+  padding: 40px 0; }
+  #discover h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #393d41; }
+  #discover p {
+    margin: 0; }
+  #discover ul a {
+    text-decoration: none;
+    list-style-type: none; }
 
-#discoverTitle {
-  font-family: "Quicksand";
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 0 0 0; }
-
-#discoverTxt {
-  margin: 0 0 0 0; }
-
-#readMoreBtn {
-  background-color: #ff851f;
-  margin: 20px 0 30px 0;
-  border-radius: 50px;
-  border: none;
-  text-transform: uppercase;
-  padding: 10px 20px 10px 20px;
-  font-family: "Roboto";
-  font-size: 11px;
-  font-weight: bold;
-  color: #fff; }
-
-.fontCapital {
-  text-transform: uppercase; }
-
-#dropDownMenu li {
-  border-bottom-style: dotted;
-  border-width: 1px;
-  font-family: "Roboto";
-  font-size: 20px;
-  line-height: 1.25;
-  text-align: justify;
-  list-style-type: none; }
-
-#dropDownMenu a {
-  text-decoration: none; }
-
-#anchorEdit {
-  list-style-type: none; }
-
-#dropDownMenu {
-  margin-bottom: 40px; }
-
-.hidden-info {
-  display: none;
-  font-size: 16px;
-  font-family: "Quicksand" !important;
-  line-height: 1.6;
-  color: #393d41; }
-
-.btnOpts2 {
-  color: #393d41;
-  padding: 15px 0 15px 0;
-  line-height: 1.6;
-  border-bottom-style: dotted;
-  border-width: 2px;
-  position: relative; }
-
-.sidebarSubTitles1 {
-  font-family: "Roboto";
-  font-size: 60px;
-  font-weight: 400;
-  text-transform: uppercase; }
-
-.teamEmail {
-  color: #ff851f; }
-
-.teamEmail:hover {
-  color: #3dccb1; }
-
-.questionsFaqs2 {
-  font-family: "Quicksand" !important;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #3dccb1; }
-
-.hidden-info2 {
-  display: none;
-  font-size: 14px;
-  font-family: "Roboto";
-  line-height: 1.4; }
-
-#contact-icons {
-  font-weight: lighter;
-  text-transform: none;
-  font-size: 16px;
-  line-height: 1.69; }
-
-.questionsFaqs2:after {
-  content: " +";
-  position: absolute;
-  right: 0; }
-
-.questionsFaqs2.action:after {
-  content: " -";
-  position: absolute;
-  right: 0; }
-
-#map {
-  height: 400px; }
-
-#dropDownMenu {
-  margin-left: -40px; }
-
-#contact-icons span {
+.contact-icons span {
   color: #d9d9d9; }
 
 /* gallery */
@@ -1455,43 +1347,20 @@ https://github.com/yui/pure/blob/master/LICENSE.md
 .servicesIcons {
   margin-top: 30px; }
 
-.questionsTitle {
-  font-family: "Quicksand";
-  font-size: 28px;
-  font-weight: 500;
-  margin: 10px 0 40px 0;
-  text-transform: uppercase; }
-
-.piggyTailIcon {
-  margin-top: 30px; }
-
-.questionsFaqs {
-  font-family: "Quicksand" !important;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #3dccb1; }
-
-.questionsFaqs:after {
-  content: " +";
-  position: absolute;
-  right: +70px; }
-
-.questionsFaqs.action:after {
-  content: " -";
-  position: absolute;
-  right: +70px; }
-
-.btnOpts1 {
-  color: #393d41;
-  margin: 0 30px 20px 30px;
-  padding: 0 10px 0 10px;
-  line-height: 1.6;
-  border-bottom-style: dotted;
-  border-width: 2px; }
-
-.hidden-info {
-  display: none;
-  font-size: 14px; }
+#faq-section {
+  padding: 30px 0; }
+  #faq-section h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #393d41;
+    font-size: 35px; }
+  #faq-section ul a {
+    text-decoration: none;
+    list-style-type: none; }
 
 #hero {
   background: #d9d9d9;

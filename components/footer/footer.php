@@ -1,10 +1,10 @@
 <div id="pigHat">
-  <img src="../../assets/images/piggy-hat.png" alt="piggy-hat">
+  <img src="../../assets/images/piggy-hat@2x.png" alt="piggy-hat">
 </div>
 <section id="primary-footer">
   <div class="container">
     <h4 class="fontCapital" id="fontFooterTopHeader">//The Flyig Pig Downtown//</h4>
-    <h3 id="fontFooterSecHeader">Rated best Hostel <br>in the Netherlands.</h3>
+    <h3 id="fontFooterSecHeader">Rated best Hostel in the Netherlands.</h3>
     <h5 id="fontFooterHeader">Certificate of Excellence. Trip Advisor 2013.</h5>
 
     <img id="social-footer" src="../../../assets/images/social-media.png" alt="pig-tale" class="pure-img"/>

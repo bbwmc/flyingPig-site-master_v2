@@ -691,6 +691,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/piggy-hat@2x copy.png": {
+		"ft": 32768,
+		"iS": 3601,
+		"oA": 0,
+		"oAP": "\/assets\/images\/piggy-hat@2x copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/piggy-hat@2x.png": {
+		"ft": 32768,
+		"iS": 31459,
+		"oA": 0,
+		"oAP": "\/assets\/images\/piggy-hat@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/piggy-hat@3x copy.png": {
+		"ft": 32768,
+		"iS": 31105,
+		"oA": 0,
+		"oAP": "\/assets\/images\/piggy-hat@3x copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/piggy-tips\/pigculture@3x.png": {
 		"ft": 32768,
 		"iS": 27077,
@@ -2902,16 +2935,6 @@
 		"oA": 2,
 		"oAP": "\/contact.php",
 		"oF": 0
-		},
-	"\/css\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/styles-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/dev-notes.txt": {
 		"ft": 8192,

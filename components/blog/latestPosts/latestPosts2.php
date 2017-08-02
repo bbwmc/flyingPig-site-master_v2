@@ -16,7 +16,7 @@
           <div class="pure-u-1">
 
             <div class="latestBlogPosts">
-                <img src="../../../assets/images/blogImages/iStock-175383579.jpg" alt="pig-tale" />
+                <img class="pure-img" src="../../../assets/images/blogImages/iStock-175383579.jpg" alt="pig-tale" />
 
                 <div><h3 class="sidebarTitlesLeft">Dutch Design In Flowers At <br> The Keukenhof Opening</h3></div>
 
@@ -48,7 +48,7 @@
 
 
             <div class="latestBlogPosts">
-                <img src="../../../assets/images/blogImages/iStock-175383579.jpg" alt="pig-tale" />
+                <img class="pure-img" src="../../../assets/images/blogImages/iStock-175383579.jpg" alt="pig-tale" />
 
                 <div><h3 class="sidebarTitlesLeft">Dutch Design In Flowers At <br> The Keukenhof Opening</h3></div>
 
@@ -79,7 +79,7 @@
 
 
             <div class="latestBlogPosts">
-                <img src="../../../assets/images/blogImages/iStock-175383579.jpg" alt="pig-tale" />
+                <img class="pure-img" src="../../../assets/images/blogImages/iStock-175383579.jpg" alt="pig-tale" />
 
                 <div><h3 class="sidebarTitlesLeft">Dutch Design In Flowers At <br> The Keukenhof Opening</h3></div>
 

@@ -1,56 +1,31 @@
-.questionsTitle{
-  font-family: $primaryfont;
-	font-size: 28px;
-	font-weight: 500;
-  margin: 10px 0 40px 0;
-  text-transform: uppercase;
-}
+#faq-section {
 
-.piggyTailIcon {
-  margin-top: 30px;
-}
+  padding: 30px 0;
 
-.questionsFaqs {
-  font-family: $primaryfont!important;
-  font-size: 18px;
-  // font-weight: 700;
-  text-transform: uppercase;
-  color: $turq-color;
-}
-//
-// #questionOpts {
-//   border-bottom-style: dotted;
-//   border-width: 2px;
-// }
+  h2{
+    @include title-font-type($body-color);
+    font-size: 35px;
+  }
 
-// toggle +/-
-.questionsFaqs:after {
-  content:" +";
-  position: absolute;
-  right: +70px;
-}
+  // accordion
+  ul li {
+    @extend .question-titles;
+  }
 
-.questionsFaqs.action:after {
-  content:" -";
-  position: absolute;
-  right: +70px;
-}
+  li a {
+    @extend .accord-question-title;
+  }
 
-.btnOpts1 {
-  color: $body-color;
-  margin: 0 30px 20px 30px;
-  padding: 0 10px 0 10px;
-  // border-radius: 30px;
-  line-height: 1.6;
-  border-bottom-style: dotted;
-  border-width: 2px;
-}
+  ul a {
+    text-decoration: none;
+    list-style-type: none;
+  }
 
-.hidden-info {
-  display: none;
-  font-size:14px;
+  p {
+    @extend .hidden-info;
+  }
+
+  p a {
+    @extend .teamEmail;
+  }
 }
-//
-// #dropDownMenu {
-//   margin-left: -30px
-// }

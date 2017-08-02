@@ -2,12 +2,33 @@ $primaryfont:'Quicksand';
 $bodyfont: 'Roboto';
 $talesfont:'Norican';
 
+
+.fontCapital{
+text-transform: uppercase;
+}
+
+ .alignCenter {
+   text-align: center;
+ }
+
+
+
+
+.pure-g {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .bodyfont {
   font-family: $bodyfont;
   color: #393d41;
   line-height: 1.76;
   text-align: justify;
   font-size: 17px;
+}
+
+.piggy-tale-title-logo {
+  margin: auto;
 }
 
 @mixin body-type($size) {
@@ -26,6 +47,16 @@ $talesfont:'Norican';
   text-align: center;
 }
 
+@mixin title-font-type ($color) {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: $primaryfont;
+  font-size: 40px;
+	font-weight: bold;
+  text-align: center;
+  color: $color;
+}
+
 ul li {
   padding-top: 25px;
   list-style-type: none;
@@ -33,4 +64,56 @@ ul li {
   font-size: 15px;
   font-weight: 500;
 
+}
+
+
+
+// accordion
+.accord-question-title {
+  font-family: $primaryfont!important;
+  text-transform: uppercase;
+  color: $turq-color;
+}
+
+.question-titles{
+  font-size: 18px;
+  color: $body-color;
+  padding: 15px 0;
+  line-height: 1.6;
+  border-bottom-style: dotted;
+  border-width: 1px;
+  position: relative;
+	line-height: 1.25;
+	text-align: justify;
+  list-style-type: none;
+}
+
+.hidden-info {
+  display: none;
+  font-size: 14px;
+  font-family: $bodyfont;
+  line-height: 1.76;
+  color: $body-color;
+  font-weight: lighter;
+}
+
+.teamEmail {
+  color: $action-color;
+}
+
+.teamEmail:hover{
+  color: $turq-color;
+}
+
+// toggle +/-
+.accord-question-title:after {
+  content:" +";
+  position: absolute;
+  right: +50px;
+}
+
+.accord-question-title.action:after {
+  content:" -";
+  position: absolute;
+  right: +50px;
 }

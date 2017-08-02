@@ -10,7 +10,7 @@
   <div class="container pure-g">
                 <!-- Image -->
   <div class="pure-u-1 pure-u-sm-1-4">
-                <img src="../../../assets/images/blogImages/iStock-476191579.jpg" alt="pig-tale" />
+                <img class="pure-img" src="../../../assets/images/blogImages/iStock-476191579.jpg" alt="pig-tale" />
               <div id="whiteBlogBg">
                 <h3 id="marginReduce">Lorem ipsum dolor sit amet</h3>
                 <button id="readMoreBtn"  class="fontCapital">Read More</button>
@@ -20,7 +20,7 @@
 
                 <!--Image -->
   <div class="pure-u-1 pure-u-sm-1-4">
-                <img src="../../../assets/images/blogImages/iStock-476191579.jpg" alt="pig-tale" />
+                <img class="pure-img" src="../../../assets/images/blogImages/iStock-476191579.jpg" alt="pig-tale" />
 
                 <h3>Lorem ipsum dolor sit amet</h3>
                 <button id="readMoreBtn"  class="fontCapital">Read More</button>
@@ -29,7 +29,7 @@
 
                 <!-- Image -->
   <div class="pure-u-1 pure-u-sm-1-4">
-                <img src="../../../assets/images/blogImages/iStock-476191579.jpg" alt="pig-tale" />
+                <img class="pure-img" src="../../../assets/images/blogImages/iStock-476191579.jpg" alt="pig-tale" />
 
                 <h3>Lorem ipsum dolor sit amet</h3>
                 <button id="readMoreBtn"  class="fontCapital">Read More</button>
@@ -37,7 +37,7 @@
         </div> <!-- pure-u-1 pure-u-sm-1-4 -->
 
   <div class="pure-u-1 pure-u-sm-1-4">
-               <img src="../../../assets/images/blogImages/iStock-476191579.jpg" alt="pig-tale" />
+               <img class="pure-img" src="../../../assets/images/blogImages/iStock-476191579.jpg" alt="pig-tale" />
 
                <h3>Lorem ipsum dolor sit amet</h3>
                <button id="readMoreBtn"  class="fontCapital">Read More</button>
