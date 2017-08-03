@@ -112,11 +112,12 @@ ul li {
 }
 
 .teamEmail {
-  color: $action-color;
+  color: $turq-color;
+  text-decoration: none;
 }
 
 .teamEmail:hover{
-  color: $turq-color;
+  color: $action-color;
 }
 
 // toggle +/-

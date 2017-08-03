@@ -2677,6 +2677,12 @@
 		"oAP": "\/components\/nav\/nav.php",
 		"oF": 0
 		},
+	"\/components\/new-gallery\/new-gallery.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/components\/new-gallery\/new-gallery.php",
+		"oF": 0
+		},
 	"\/components\/reasons\/_reasons.scss": {
 		"aP": 0,
 		"bl": 0,

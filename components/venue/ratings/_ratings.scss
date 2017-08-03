@@ -1,15 +1,28 @@
 #piggy-ratings {
-  margin: 20px 20px;
+  // margin: 20px 20px;
+  p {
+    margin: 0;
+  }
 
   p span {
     font-weight: bold;
+  }
+
+  ul {
+    padding: 0px;
+
+    li {
+      padding: 0px;
+      padding-top: 20px;
+    }
   }
 
   .ratings-Bg {
     background: $turq-color;
     color: $body-color;
     border-radius: 10px;
-    padding: 20px 0 20px 0;
+    padding: 30px;
+    padding-bottom: 180px;
   }
 
   .ratingInfo{
@@ -18,30 +31,30 @@
     border-width: 1px;
   }
 
-  .textRight1 {
-    color: $body-color;
-    font-family: $bodyfont;
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.69;
-    letter-spacing: normal;
-    text-align: justify;
-    padding-right: 0px;
-    padding-left: 55px;
-    padding-top: 0px;
-  }
-
-  .textRight2 {
-    color: $body-color;
-    font-family: $bodyfont;
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.69;
-    letter-spacing: normal;
-    text-align: justify;
-    padding-left: 4px;
-    padding-top: 0px;
-  }
+  // .textRight1 {
+  //   color: $body-color;
+  //   font-family: $bodyfont;
+  //   text-align: left;
+  //   font-size: 16px;
+  //   line-height: 1.69;
+  //   letter-spacing: normal;
+  //   text-align: justify;
+  //   padding-right: 0px;
+  //   // padding-left: 40px;
+  //   padding-top: 0px;
+  // }
+  //
+  // .textRight2 {
+  //   color: $body-color;
+  //   font-family: $bodyfont;
+  //   text-align: left;
+  //   font-size: 16px;
+  //   line-height: 1.69;
+  //   letter-spacing: normal;
+  //   text-align: justify;
+  //   padding-left: 4px;
+  //   padding-top: 0px;
+  // }
 
   .ratingsTitle {
     font-family: $primaryfont;

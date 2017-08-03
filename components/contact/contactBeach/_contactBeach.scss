@@ -1,6 +1,12 @@
+#contact-hostels {
+
+
+}
+
+
 .contactHostelTitle {
   font-family: $bodyfont;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	line-height: 1.5;
 	color: $turq-color;
@@ -8,9 +14,8 @@
   border-bottom-style: solid;
   border-width: 1px;
   text-transform: uppercase;
-  margin-top: 40px;
-  margin-left: 55px;
-  margin-right: 30px;
+
+  margin: 0 30px 20px 10px;
 }
 
 .contactInfoStyle {
@@ -19,7 +24,8 @@
 	line-height: 1.69;
 	color: $body-color;
   margin-bottom: 20px;
-  padding-left: 55px;
+  margin-left: 4px;
+  // padding-left: 55px;
 }
 
 .contactInfoStyle span {
