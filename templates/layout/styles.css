@@ -134,7 +134,7 @@ ul li {
   font-size: 15px;
   font-weight: 500; }
 
-.border-rad {
+.border-rad, .outerDiv, #piggy-tips-content, #piggy-tips-nav a, .galleryPic1, #galleryPic2, #galleryPic3, #piggy-ratings .ratings-Bg, #latest-posts button {
   border-radius: 5px; }
 
 .action-button, #hero-container button, #gallery-section button, #featured-blog button, #latest-posts button, .pure-button {
@@ -382,7 +382,6 @@ ul li {
 .outerDiv {
   position: relative;
   background: #fff;
-  border-radius: 10px;
   padding-bottom: 40px; }
 
 .innerDiv {
@@ -521,7 +520,6 @@ ul#footer-menu {
 
 #piggy-tips-content {
   background: #edf2f0;
-  border-radius: 29px;
   height: 400px;
   overflow: scroll; }
   #piggy-tips-content .tab-content {
@@ -562,7 +560,6 @@ ul#footer-menu {
   display: block;
   background: #fff;
   height: 50px;
-  border-radius: 16px;
   margin: 20px 0 20px 0;
   font-size: 18px;
   font-weight: bold;
@@ -633,7 +630,6 @@ ul#footer-menu {
 .galleryPic1 {
   width: 268px;
   height: 238px;
-  border-radius: 10px;
   overflow: hidden;
   float: left;
   margin-bottom: 10px;
@@ -642,14 +638,12 @@ ul#footer-menu {
 #galleryPic2 {
   width: 204px;
   height: 238px;
-  border-radius: 10px;
   overflow: hidden;
   float: left; }
 
 #galleryPic3 {
   width: 480px;
   height: 238px;
-  border-radius: 10px;
   overflow: hidden;
   float: left; }
 
@@ -669,7 +663,6 @@ ul#footer-menu {
 #piggy-ratings .ratings-Bg {
   background: #3dccb1;
   color: #393d41;
-  border-radius: 10px;
   padding: 30px;
   padding-bottom: 180px; }
 
@@ -1126,8 +1119,7 @@ https://github.com/yui/pure/blob/master/LICENSE.md
     color: #393d41;
     margin-bottom: 10px; }
   #latest-posts button {
-    margin-bottom: 20px;
-    border-radius: 10px; }
+    margin-bottom: 20px; }
   #latest-posts img {
     border-radius: 2px; }
   #latest-posts ul {

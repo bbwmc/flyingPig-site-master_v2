@@ -20,7 +20,7 @@
 .galleryPic1 {
   width:268px;
   height:238px;
-  border-radius:10px;
+  @extend .border-rad;
   overflow:hidden;
   float: left;
   margin-bottom: 10px;
@@ -30,7 +30,7 @@
 #galleryPic2 {
   width:204px;
   height:238px;
-  border-radius:10px;
+  @extend .border-rad;
   overflow:hidden;
   float: left;
 }
@@ -38,7 +38,7 @@
 #galleryPic3 {
   width:480px;
   height:238px;
-  border-radius:10px;
+  @extend .border-rad;
   overflow:hidden;
     float: left;
 }

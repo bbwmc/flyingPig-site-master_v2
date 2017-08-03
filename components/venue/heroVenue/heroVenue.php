@@ -1,11 +1,14 @@
- <div id="hero">
-      <div class="alignCenter">
-            <h1 id="fontCapital">Flying Pig<h1>
-            <h1 id="boldTitle">Noordwijk</h1>
+<div id="hero-container">
+  <div class="container pure-g">
+   <div class="pure-u-1">
+
+      <h1>Flying Pig<br><span>Noordwijk</span><h1>
+
 <!-- Find Us -->
-      <div id="findUs" class="alignCenter">
-            <button id="findUsBtn">Book now from €12</button>
-            
-      </div> <!-- findUs -->
-   </div> <!-- alignCenter -->
-</div> <!-- hero -->
+    <div>
+        <button>Book now from €12</button>
+
+        </div> <!-- findUs -->
+    </div> <!-- pure-u-1 -->
+ </div> <!-- hero -->
+</div> <!-- heroContainer -->

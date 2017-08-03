@@ -2,8 +2,6 @@
 
 <!-- MENU.PHP-->
 
-<?php require_once "components/faq/heroFaq/heroFaq.php" ?>
-
 <?php require_once "components/faq/iconHeader/iconHeader.php" ?>
 
 <?php require_once "components/faq/questions/questions.php" ?>

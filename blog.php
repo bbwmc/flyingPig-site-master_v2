@@ -2,7 +2,6 @@
 
 <!-- MENU.PHP-->
 
-<?php require_once "components/blog/heroBlog/heroBlog.php" ?>
 
 <?php require_once "components/blog/featuredPosts/featured.php" ?>
 

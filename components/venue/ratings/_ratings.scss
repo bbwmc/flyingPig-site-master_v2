@@ -20,7 +20,7 @@
   .ratings-Bg {
     background: $turq-color;
     color: $body-color;
-    border-radius: 10px;
+    @extend .border-rad;
     padding: 30px;
     padding-bottom: 180px;
   }

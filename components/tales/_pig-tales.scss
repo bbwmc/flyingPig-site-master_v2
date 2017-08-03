@@ -16,10 +16,10 @@
 }
 
 .outerDiv {
+  @extend .border-rad;
   position: relative;
   background:#fff;
   // height:380px;
-  border-radius: 10px;
   padding-bottom: 40px;
 }
 
