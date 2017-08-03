@@ -89,7 +89,7 @@
   max-width: 1200px;
   margin: auto; }
 
-.bodyfont, #locations p, #reasons p, #discover p, #gallery-section p, #latest-posts p {
+.bodyfont, #locations p, #reasons p, #discover p, #gallery-section p, #latest-posts p, #about-us main p {
   font-family: "Roboto";
   color: #393d41;
   line-height: 1.76;
@@ -113,7 +113,7 @@ ul li {
   font-size: 15px;
   font-weight: 500; }
 
-.action-button, #gallery-section button, #featured-blog button, #latest-posts button {
+.action-button, #gallery-section button, #featured-blog button, #latest-posts button, #about-us button {
   background: #ff851f;
   color: #fff;
   font-family: "Roboto";
@@ -1407,81 +1407,84 @@ https://github.com/yui/pure/blob/master/LICENSE.md
 .contactHostelMap {
   border-radius: 20px; }
 
-article.blog-posts ul {
+#about-us h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Quicksand";
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #393d41;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px; }
+
+#about-us #btm-images img {
+  border-radius: 2%;
+  width: auto;
+  height: 260px;
+  overflow: hidden; }
+
+#about-us button {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 176px; }
+
+#about-us article.blog-posts ul {
   list-style: none;
   padding: 0; }
-  article.blog-posts ul li {
+  #about-us article.blog-posts ul li {
     margin-bottom: 20px; }
-    article.blog-posts ul li a {
+    #about-us article.blog-posts ul li a {
       text-decoration: none;
       color: #ccc;
       font-size: 12px; }
-      article.blog-posts ul li a span {
+      #about-us article.blog-posts ul li a span {
         margin-top: 10px;
         display: block; }
 
-.widget-title {
+#about-us .widget-title {
   border-bottom: solid 1px #3dccb1;
   font-family: "Roboto";
   font-size: 24px;
   font-weight: bold;
   color: #3dccb1;
   text-transform: uppercase; }
+  #about-us .widget-title:before {
+    content: url("../../assets/images/aboutUs/cross_tur_copy.png");
+    padding-right: 5px;
+    top: 2px;
+    position: relative; }
 
-.bodyDesign {
-  font-family: "Roboto";
-  font-size: 17px;
-  line-height: 1.76;
-  color: #393d41; }
-
-.bodyDesign p {
-  margin-bottom: 50px; }
-
-#aboutTitle {
-  font-family: "Quicksand";
-  font-size: 40px;
-  font-weight: bold;
-  color: #393d41;
-  margin-bottom: 40px;
-  padding-left: 10px; }
-
-.aboutUsImg1 {
-  border-radius: 2%;
-  display: inline;
-  margin-left: 25px; }
-
-#btmImages {
-  margin-bottom: 50px; }
-
-.aboutUsBlog {
-  border-radius: 4%;
-  width: 176px; }
-
-#realtedOptions {
-  font-family: "Roboto";
-  font-size: 15px;
+#about-us #realtedOptions {
   line-height: 2.73;
   text-transform: uppercase; }
+  #about-us #realtedOptions li {
+    padding: 0px;
+    font-family: "Roboto"; }
+  #about-us #realtedOptions li a {
+    text-decoration: none;
+    color: #8a918e;
+    font-size: 15px;
+    line-height: 2.73;
+    font-weight: 400; }
 
-#realtedOptions li a {
-  text-decoration: none;
-  color: #d9d9d9; }
-
-.blog-snippet span {
+#about-us .blog-snippet span {
   font-family: "Roboto";
   font-size: 15px;
   line-height: 1.6;
-  color: #d9d9d9;
-  width: 176px; }
+  color: #8a918e;
+  width: 176px;
+  font-weight: 400; }
 
-.widget p {
+#about-us .widget p {
   font-family: "Roboto";
   font-size: 15px;
   line-height: 1.6;
-  color: #d9d9d9;
+  color: #8a918e;
   width: 176px; }
 
-#email {
+#about-us #email {
   width: 176px;
   font-family: "Roboto";
   font-size: 15px;
@@ -1490,19 +1493,6 @@ article.blog-posts ul {
   background: #edf2f0;
   border: none;
   border-radius: 10px; }
-
-#signUpBtn {
-  background: #ff851f;
-  color: #edf2f0;
-  font-family: "Roboto";
-  border: none;
-  text-decoration: none;
-  border-radius: 10px;
-  padding: 4px 0 15px 0;
-  font-size: 15px;
-  text-transform: uppercase;
-  width: 176px;
-  height: 30px; }
 
 #hero {
   background: #d9d9d9;
