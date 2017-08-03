@@ -1,41 +1,26 @@
-#heroContainer {
+#hero-container {
     background: $color-four;
-}
+    text-align: center;
 
-#hero {
-  background: $color-four;
-  color: $body-color;
-  padding: 20px 0 20px 0;
-}
+    h1 {
+      @extend .hero-title;
+      color: $body-color;
 
-#fontCapital{
-  text-transform: uppercase;
-  font-family: $primaryfont;
-  font-size: 36px;
-	font-weight: bold;
-  margin-bottom: 0px;
-}
+      span {
+        text-transform: uppercase;
+        font-family: $primaryfont;
+        font-weight: bold;
+        margin-top: -30px;
+        font-size: 60px;
+        @include bp(baby-bear){
+        font-size: 50px
+        };
+      }
+    }
 
-#boldTitle {
-  text-transform: uppercase;
-  font-family: $primaryfont;
-	font-weight: bold;
-  margin-top: -30px;
-  font-size: 60px;
-  @include bp(baby-bear){
-    font-size: 10px;
-  };
-}
+    button {
+      @extend .action-button;
+      text-transform: uppercase;
+    }
 
-#findUsBtn {
-  background: $action-color;
-  color: $heading-color;
-  font-family: $bodyfont;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50px;
-  padding: 12px 65px 12px 65px;
-  font-size: 18px;
-  text-transform: uppercase;
 }

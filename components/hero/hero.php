@@ -1,14 +1,12 @@
-<div id="heroContainer">
+<div id="hero-container">
+  <div class="container pure-g">
+   <div class="pure-u-1">
 
-<div id="hero" class="pure-g">
-   <div class="pure-u-1 alignCenter">
-
-      <h1 id="fontCapital">Welcome to the<h1>
-      <h1 id="boldTitle">Flying Pig</h1>
+      <h1>Welcome to the <br><span>Flying Pig</span><h1>
 
 <!-- Find Us -->
-    <div id="findUs" class="alignCenter">
-        <button id="findUsBtn">Find us to get lost</button>
+    <div>
+        <button>Find us to get lost</button>
 
         </div> <!-- findUs -->
     </div> <!-- pure-u-1 -->

@@ -18,13 +18,8 @@
     overflow: hidden;
       }
     }
+}
 
-    button {
-      @extend .action-button;
-      margin-bottom: 20px;
-      border-radius: 10px;
-      width: 176px;
-    }
 
 
 article.blog-posts {
@@ -92,10 +87,10 @@ article.blog-posts {
 // Blog Section
 .blog-snippet span{
   font-family: $bodyfont;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.6;
   color: #8a918e;
-  width: 176px;
+  // width: 176px;
   font-weight: 400;
 }
 
@@ -109,6 +104,10 @@ article.blog-posts {
   width:176px;
 }
 
+.pure-button {
+  @extend .action-button;
+}
+
 #email {
   width: 176px;
   font-family: $bodyfont;
@@ -118,5 +117,4 @@ article.blog-posts {
   background: $heading-color;
   border: none;
   border-radius: 10px;
-}
 }

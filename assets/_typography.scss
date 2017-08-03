@@ -47,7 +47,30 @@ text-transform: uppercase;
   text-align: center;
 }
 
-@mixin title-font-type ($color) {
+.hero-title {
+  text-transform: uppercase;
+  font-family: $primaryfont;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  color: $body-color;
+  @include bp(baby-bear){
+  font-size: 30px
+  };
+}
+
+.hero-title span {
+  text-transform: uppercase;
+  font-family: $primaryfont;
+  font-weight: bold;
+  margin-top: -30px;
+  font-size: 60px;
+  @include bp(baby-bear){
+  font-size: 50px
+  };
+}
+
+@mixin title-font-type($color) {
   margin: 0;
   text-transform: uppercase;
   font-family: $primaryfont;
@@ -66,6 +89,11 @@ ul li {
 
 }
 
+//border radius
+.border-rad {
+  border-radius: 5px;
+}
+
 // Orange Buttons
 .action-button {
     background: $action-color;
@@ -76,7 +104,7 @@ ul li {
     border: none;
     text-align: center;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 5px;
     padding: 10px 40px 10px 40px;
   }
 

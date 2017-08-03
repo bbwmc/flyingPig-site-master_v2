@@ -39,6 +39,7 @@
 
         </main>
 
+
         <!-- Sidebar -->
         <aside id="articleSidebar" class="sidebar pure-u-1 pure-u-sm-1-3">
           <!-- Start Widget -->
@@ -64,13 +65,13 @@
             <ul>
               <li class="blog-snippet">
                 <a href="#">
-                  <img class="pure-img" style="width:176px; border-radius:4px;" src="../../assets/images/aboutUs/blog1.jpg" alt="">
+                  <img class="pure-img" style="width:100%; border-radius:4px;" src="../../assets/images/aboutUs/blog1.jpg" alt="">
                   <span>How to do Amsterdam in 48hrs?</span>
                 </a>
               </li>
               <li class="blog-snippet">
                 <a href="#">
-                  <img class="pure-img" style="width:176px; border-radius:4px;" src="../../assets/images/aboutUs/blog1.jpg" alt="">
+                  <img class="pure-img" style="width:100%; border-radius:4px;" src="../../assets/images/aboutUs/blog1.jpg" alt="">
                   <span>The top 7 coolest things to do in Amsterdam</span>
                 </a>
               </li>
@@ -101,8 +102,5 @@
           <!-- END Widget -->
         </aside>
 
-
-
-
-  </div>
-</section>
+      </div>
+    </section>
