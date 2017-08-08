@@ -6,8 +6,6 @@
 
 <?php require_once "components/venue/discover/discover.php" ?>
 
-<?php require_once "components/venue/piggy-tips/tips.php" ?>
-
 <?php require_once "components/venue/gallery/gallery.php" ?>
 
 <?php require_once "components/venue/ratings/ratings.php" ?>

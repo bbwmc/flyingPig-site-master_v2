@@ -5,6 +5,7 @@
 <?php require_once "components/locations/locations.php" ?>
 
 <?php require_once "components/reasons/reasons.php" ?>
+<?php require_once "components/venue/piggy-tips/tips.php" ?>
 
 <?php require_once "components/tales/tales.php" ?>
 

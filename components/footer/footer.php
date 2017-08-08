@@ -37,6 +37,7 @@
 <script src="components/venue/discover/discover.js" charset="utf-8"></script>
 <script src="components/nav/nav.js" charset="utf-8"></script>
 <script src="components/venue/piggy-tips/tips-tabs.js" charset="utf-8"></script>
+<script src="components/venue/piggy-tips/tip-content/inner-tabs.js" charset="utf-8"></script>
 <script src="components/booking-widget/booking.js" charset="utf-8"></script>
 
 </body>

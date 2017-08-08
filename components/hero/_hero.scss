@@ -1,6 +1,14 @@
 #hero-container {
+  box-sizing: border-box;
     background: $color-four;
+    background: url('../../img/hero.jpg');
+    background-size: cover;
+    // background-position: fixed;
     text-align: center;
+    padding: 8em 0 13em 0;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
 
     h1 {
       @extend .hero-title;

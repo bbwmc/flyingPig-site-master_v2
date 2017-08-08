@@ -2561,11 +2561,42 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/components\/venue\/piggy-tips\/tip-content\/_inner-tabs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/components\/venue\/piggy-tips\/tip-content\/_inner-tabs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/components\/venue\/piggy-tips\/tip-content\/folder-contents-key.txt": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/components\/venue\/piggy-tips\/tip-content\/folder-contents-key.txt",
 		"oF": 0
+		},
+	"\/components\/venue\/piggy-tips\/tip-content\/inner-tabs-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/components\/venue\/piggy-tips\/tip-content\/inner-tabs-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/components\/venue\/piggy-tips\/tip-content\/inner-tabs.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/components\/venue\/piggy-tips\/tip-content\/inner-tabs-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/components\/venue\/piggy-tips\/tip-content\/tip-1.php": {
 		"ft": 8192,
@@ -2654,6 +2685,26 @@
 		"oA": 2,
 		"oAP": "\/faq.php",
 		"oF": 0
+		},
+	"\/img\/hero-min.jpg": {
+		"ft": 16384,
+		"iS": 2918221,
+		"oA": 0,
+		"oAP": "\/img\/hero-min.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hero.jpg": {
+		"ft": 16384,
+		"iS": 13676139,
+		"oA": 0,
+		"oAP": "\/img\/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
